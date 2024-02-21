@@ -129,10 +129,10 @@ TextureImporter:
       name: hpBar_0
       rect:
         serializedVersion: 2
-        x: 153
+        x: 158
         y: 457
-        width: 740
-        height: 170
+        width: 731
+        height: 171
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

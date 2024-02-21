@@ -4,6 +4,7 @@ using Enemies;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.UI;
 
 namespace Player
 {
@@ -14,6 +15,9 @@ namespace Player
         public int playerHealth  = 20;
         public int maxPlayerHealth = 20;
         public TMP_Text playerHealthText;
+
+        [Header("HealthBar")] 
+        [SerializeField] private Image mainBar;
     
         [Header("PlayerDice")]
         public SpriteRenderer playerDiceRenderer;
@@ -113,6 +117,10 @@ namespace Player
         private void UpdateTextData()
         {
             playerHealthText.text = playerHealth.ToString();
+            float cur = playerHealth;
+            float max = maxPlayerHealth;
+            float fill = cur / max;
+            mainBar.fillAmount = fill;
         }
     }
 }
