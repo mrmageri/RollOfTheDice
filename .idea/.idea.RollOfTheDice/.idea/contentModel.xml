@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\roman\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\roman\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_RollOfTheDice.1424384884.00" t="ExcludeRecursive" />
+    <e p="D:\Unity Progekts\RollOfTheDice" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="LevelScrObj" t="Include" />
+        <e p="Post-Processing" t="Include" />
+        <e p="Prefabs" t="Include">
+          <e p="DiceExtras" t="Include" />
+          <e p="Dices" t="Include" />
+          <e p="Enemies" t="Include">
+            <e p="BombFly" t="Include" />
+            <e p="Effects" t="Include" />
+          </e>
+        </e>
+        <e p="Resources" t="Include">
+          <e p="GameIcons" t="Include" />
+          <e p="Sprites" t="Include">
+            <e p="DiceItem" t="Include" />
+            <e p="Dices" t="Include">
+              <e p="AshDice" t="Include" />
+              <e p="BatteryDice" t="Include" />
+              <e p="BoxDice" t="Include" />
+              <e p="CerealDice" t="Include" />
+              <e p="CutletDice" t="Include" />
+              <e p="D12UsualDice" t="Include" />
+              <e p="D2UsualDice" t="Include" />
+              <e p="D4UsualDice" t="Include" />
+              <e p="D6UsualDice" t="Include" />
+              <e p="DiceShoe" t="Include" />
+              <e p="DorbluDice" t="Include" />
+              <e p="DustyDice" t="Include" />
+              <e p="EmberDice" t="Include" />
+              <e p="GlassDice" t="Include" />
+              <e p="HoneyDice" t="Include" />
+              <e p="IceDice" t="Include" />
+              <e p="IVDice" t="Include" />
+              <e p="OldBatteryDice" t="Include" />
+              <e p="PrismDice" t="Include" />
+              <e p="PunchDice" t="Include" />
+              <e p="SixSixSixDice" t="Include" />
+              <e p="UraniumDice" t="Include" />
+              <e p="WaterDice" t="Include" />
+              <e p="WaxDice" t="Include" />
+            </e>
+            <e p="Enemies" t="Include">
+              <e p="BabyFly" t="Include" />
+              <e p="BombFly" t="Include" />
+              <e p="ElectroFly" t="Include" />
+              <e p="FakeFly" t="Include" />
+              <e p="GasMaskFly" t="Include" />
+              <e p="PoopFly" t="Include" />
+              <e p="PoopHeadFly" t="Include" />
+              <e p="PoopTinyFly" t="Include" />
+              <e p="SimpleFly" t="Include" />
+              <e p="Statuses" t="Include">
+                <e p="DoubleDamageEffect" t="Include" />
+                <e p="ElectroEffect" t="Include" />
+                <e p="FireStatus" t="Include" />
+                <e p="FreezedEffect" t="Include" />
+                <e p="PoisonEffect" t="Include" />
+                <e p="StickyEffect" t="Include" />
+                <e p="StunnedEffect" t="Include" />
+              </e>
+              <e p="TiredFly" t="Include" />
+            </e>
+            <e p="Fonts" t="Include">
+              <e p="OFL.txt" t="Include" />
+            </e>
+            <e p="PlayerDice" t="Include" />
+            <e p="PlayerTrash" t="Include" />
+            <e p="UI" t="Include">
+              <e p="Dice" t="Include" />
+              <e p="MenuAnimetions" t="Include">
+                <e p="SceneTransition" t="Include" />
+              </e>
+              <e p="Player" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scenes" t="Include">
+          <e p="MapScene_Profiles" t="Include" />
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="CameraMovement.cs" t="Include" />
+          <e p="Debugger.cs" t="Include" />
+          <e p="Dices" t="Include">
+            <e p="Dice.cs" t="Include" />
+            <e p="DiceAreas" t="Include">
+              <e p="BoxArea.cs" t="Include" />
+              <e p="DiceArea.cs" t="Include" />
+              <e p="DorbluArea.cs" t="Include" />
+              <e p="OldBatteryDiceExplosion.cs" t="Include" />
+              <e p="PrismArea.cs" t="Include" />
+            </e>
+            <e p="DiceEffect" t="Include">
+              <e p="BatteryDice.cs" t="Include" />
+              <e p="BoxDice.cs" t="Include" />
+              <e p="CerealDice.cs" t="Include" />
+              <e p="CutletDice.cs" t="Include" />
+              <e p="DiceEffect.cs" t="Include" />
+              <e p="DiceShoes.cs" t="Include" />
+              <e p="DorbluDice.cs" t="Include" />
+              <e p="EmberDice.cs" t="Include" />
+              <e p="GlassDice.cs" t="Include" />
+              <e p="HoneyDice.cs" t="Include" />
+              <e p="IceDice.cs" t="Include" />
+              <e p="IVDice.cs" t="Include" />
+              <e p="OldBatteryDice.cs" t="Include" />
+              <e p="PrismDice.cs" t="Include" />
+              <e p="PunchDice.cs" t="Include" />
+              <e p="SixSixSixDice.cs" t="Include" />
+              <e p="UraniumDice.cs" t="Include" />
+              <e p="UsualDice.cs" t="Include" />
+              <e p="WaterDice.cs" t="Include" />
+              <e p="WaxDice.cs" t="Include" />
+            </e>
+            <e p="DiceManager.cs" t="Include" />
+            <e p="DiceResultShower.cs" t="Include" />
+          </e>
+          <e p="Enemies" t="Include">
+            <e p="EnemiesSpawner.cs" t="Include" />
+            <e p="EnemiesVariants" t="Include">
+              <e p="BabyFly.cs" t="Include" />
+              <e p="BombFly.cs" t="Include" />
+              <e p="FakeFly.cs" t="Include" />
+              <e p="PoopFly.cs" t="Include" />
+              <e p="PoopHeadFly.cs" t="Include" />
+              <e p="SimpleFly.cs" t="Include" />
+              <e p="TiredFly.cs" t="Include" />
+            </e>
+            <e p="Enemy.cs" t="Include" />
+            <e p="EnemyAreas" t="Include">
+              <e p="BombFlyExplosion.cs" t="Include" />
+              <e p="ElectroArea.cs" t="Include" />
+            </e>
+            <e p="EnemyStatuses" t="Include">
+              <e p="DoubleDamageStatus.cs" t="Include" />
+              <e p="ElectroStatus.cs" t="Include" />
+              <e p="EnemyStatus.cs" t="Include" />
+              <e p="FireStatus.cs" t="Include" />
+              <e p="FreezedStatus.cs" t="Include" />
+              <e p="PoisonStatus.cs" t="Include" />
+              <e p="PunchStatus.cs" t="Include" />
+              <e p="StickyStatus.cs" t="Include" />
+              <e p="WaterStatus.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Entity.cs" t="Include" />
+          <e p="FightingMenuLoader.cs" t="Include" />
+          <e p="GameManager.cs" t="Include" />
+          <e p="Levels" t="Include">
+            <e p="LevelButtonLoader.cs" t="Include" />
+            <e p="LevelManager.cs" t="Include" />
+            <e p="LevelMenuPlayer.cs" t="Include" />
+            <e p="LevelScrObject.cs" t="Include" />
+            <e p="SceneLoader.cs" t="Include" />
+          </e>
+          <e p="Menu" t="Include">
+            <e p="BackpackMenuManager.cs" t="Include" />
+            <e p="DiceBackpackItem.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="Player.cs" t="Include" />
+            <e p="PlayerDice.cs" t="Include" />
+          </e>
+          <e p="SaveSystem" t="Include">
+            <e p="DicesData.cs" t="Include" />
+            <e p="LevelData.cs" t="Include" />
+            <e p="PlayerData.cs" t="Include" />
+            <e p="SaveSystem.cs" t="Include" />
+          </e>
+          <e p="ScaleToFitScreen.cs" t="Include" />
+          <e p="TurnManager.cs" t="Include" />
+        </e>
+        <e p="TextMesh Pro" t="Include">
+          <e p="Documentation" t="Include" />
+          <e p="Fonts" t="Include">
+            <e p="LiberationSans - OFL.txt" t="Include" />
+          </e>
+          <e p="Resources" t="Include">
+            <e p="Fonts &amp; Materials" t="Include" />
+            <e p="LineBreaking Following Characters.txt" t="Include" />
+            <e p="LineBreaking Leading Characters.txt" t="Include" />
+            <e p="Sprite Assets" t="Include" />
+            <e p="Style Sheets" t="Include" />
+          </e>
+          <e p="Shaders" t="Include">
+            <e p="SDFFunctions.hlsl" t="Include" />
+            <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+            <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+            <e p="TMP_Bitmap.shader" t="Include" />
+            <e p="TMP_SDF Overlay.shader" t="Include" />
+            <e p="TMP_SDF SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+            <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+            <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+            <e p="TMP_SDF-Mobile-2-Pass.shader" t="Include" />
+            <e p="TMP_SDF-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+            <e p="TMP_SDF-Surface.shader" t="Include" />
+            <e p="TMP_SDF.shader" t="Include" />
+            <e p="TMP_Sprite.shader" t="Include" />
+            <e p="TMPro.cginc" t="Include" />
+            <e p="TMPro_Mobile.cginc" t="Include" />
+            <e p="TMPro_Properties.cginc" t="Include" />
+            <e p="TMPro_Surface.cginc" t="Include" />
+          </e>
+          <e p="Sprites" t="Include">
+            <e p="EmojiOne Attribution.txt" t="Include" />
+            <e p="EmojiOne.json" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="Library" t="Include">
+        <e p="BuildInstructions" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="RollOfTheDice.sln" t="IncludeFlat" />
+      <e p="Temp\Bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
