@@ -1,5 +1,6 @@
 using System;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Levels
@@ -21,6 +22,7 @@ namespace Levels
         private string fightingStr = "FightingScene";
         public GameObject transitionObj;
         public Animator transitionAnimator;
+        [SerializeField] private UnityEvent onWin;
         
         LevelManager()
         {
@@ -60,7 +62,6 @@ namespace Levels
             if (currentLevel == 0)
             {
                 ActivateTransition();
-                //levelButtonLoaders[currentLevel].LoadScene(fightingStr);
             }
             else
             {
@@ -91,6 +92,10 @@ namespace Levels
                 { 
                     elem.levelButtonSpriteRenderer.color = nextLevelColor;
                 }
+            }
+            if (currentLevel == levelButtonLoaders.Length)
+            {
+                onWin.Invoke();
             }
         }
 

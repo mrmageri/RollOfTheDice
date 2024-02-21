@@ -952,6 +952,9 @@ MonoBehaviour:
   playerSpeed: 5
   transitionObj: {fileID: 6562467858533837307}
   transitionAnimator: {fileID: 1253325285758243248}
+  onWin:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &885778960
 GameObject:
   m_ObjectHideFlags: 0
