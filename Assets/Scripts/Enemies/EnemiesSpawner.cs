@@ -40,7 +40,7 @@ using Random = UnityEngine.Random;
         
             private bool _enemiesAreHighlighted = false;
 
-            private bool _spawnedEnemy = false;
+            //private bool _spawnedEnemy = false;
 
             public static EnemiesSpawner instanceES;
 
@@ -72,8 +72,10 @@ using Random = UnityEngine.Random;
                 if(comingEnemiesPrefabs.Count <= 0) return;
                 if (currentTurn % spawnInterval == 0)
                 {
-                    _spawnedEnemy = false;
-                    while (!_spawnedEnemy)
+                    int newEnemiesAmount = Random.Range(1, 4);
+                    //_spawnedEnemy = false;
+                    if (newEnemiesAmount > comingEnemiesPrefabs.Count) newEnemiesAmount = comingEnemiesPrefabs.Count;
+                    for (int i = 0; i < newEnemiesAmount; ++i)
                     {
                         int spawnCellNumber = Random.Range(0, spawnPoint.Length);
                     
@@ -86,7 +88,7 @@ using Random = UnityEngine.Random;
                         enemy.targetTransform = targetPoint[spawnCellNumber].transform;
                     
                         comingEnemiesPrefabs.Remove(comingEnemiesPrefabs[enemyPrefabNumber]);
-                        _spawnedEnemy = true;
+                        //_spawnedEnemy = true;
                     }
                 }
             }
