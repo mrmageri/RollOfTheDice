@@ -3,17 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/13_AshDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/13_AshDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/hpBar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/hpBar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/hpBar2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/hpBar2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/hpBarOutline.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/hpBarOutline.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +68,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/UraniumDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/CutletDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
@@ -88,6 +78,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ScaleToFitScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
       </list>
     </option>
   </component>
@@ -281,6 +272,7 @@
       <workItem from="1708467663213" duration="626000" />
       <workItem from="1708530113117" duration="1380000" />
       <workItem from="1708546801931" duration="1280000" />
+      <workItem from="1708611609582" duration="1202000" />
     </task>
     <servers />
   </component>
