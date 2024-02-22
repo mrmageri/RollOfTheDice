@@ -15,12 +15,12 @@ namespace Player
 
         [SerializeField] private float heightY = 3.0f;
 
-        public IEnumerator Curve(Vector3 start, Vector2 target, Enemy enemy,Dice dice)
+        public IEnumerator Curve(Vector3 start, Vector3 target, Enemy enemy,Dice dice)
         {
             targetEnemy = enemy;
             float timePassed = 0f;
 
-            Vector2 end = target;
+            Vector3 end = target;
 
             while (timePassed < duration)
             {
@@ -29,8 +29,8 @@ namespace Player
                 float linearT = timePassed / duration;
                 float heightT = curve.Evaluate(linearT);
                 float height = Mathf.Lerp(0f, heightY, heightT);
-
-                transform.position = Vector2.Lerp(start, end, linearT) + new Vector2(0f, height);
+                
+               transform.position = Vector3.Lerp(start, end, linearT) + new Vector3(0f, height, 0f);
             
                 yield return null;
             }

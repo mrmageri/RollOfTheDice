@@ -3,8 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Fonts/LilitaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Fonts/LilitaOne-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/SimpleFly/SimpleFly_Dancing.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/SimpleFly/SimpleFly_Dancing.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/SimpleFly/SimpleFly_Fighting.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/SimpleFly/SimpleFly_Fighting.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/SimpleFly/SimpleFly_Walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/SimpleFly/SimpleFly_Walking.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +32,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/HoneyDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/IceDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/PunchDice.cs" />
@@ -75,10 +78,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DiceEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/Dice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScaleToFitScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
       </list>
     </option>
   </component>
@@ -274,6 +278,7 @@
       <workItem from="1708546801931" duration="1280000" />
       <workItem from="1708611609582" duration="1202000" />
       <workItem from="1708636115620" duration="1663000" />
+      <workItem from="1708640222091" duration="853000" />
     </task>
     <servers />
   </component>
@@ -358,6 +363,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1707224530238" />
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1708641082117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1708641082117" />
     <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1701695290965">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

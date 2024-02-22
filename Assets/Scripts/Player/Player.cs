@@ -50,7 +50,7 @@ namespace Player
         }
 
         //Function which is invoked by clicking on enemy, it set the target position for player dice and throws it and sets ene,y to damage
-        public void ThrowingDice(Vector2 enemyPosition, Enemy enemy,Dice dice)
+        public void ThrowingDice(Vector3 enemyPosition, Enemy enemy,Dice dice)
         {
             GameObject currentDice = Instantiate(playerDicePrefab, diceThrowingPoint.position, Quaternion.identity);
             currentDice.GetComponent<SpriteRenderer>().sprite = playerDiceRenderer.sprite;
