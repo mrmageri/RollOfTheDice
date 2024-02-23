@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 904138654580705502}
   - component: {fileID: 904138654580705488}
   - component: {fileID: 904138654580705503}
-  - component: {fileID: 8506219403827090748}
+  - component: {fileID: 7985044341751151025}
   m_Layer: 0
   m_Name: BatteryDiceArea
   m_TagString: Untagged
@@ -49,8 +49,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   thisArea: {fileID: 904138654580705500}
   targetEnemyObj: {fileID: 0}
-  collider2D: {fileID: 8506219403827090748}
-  damage: 4
+  damage: 1
+  collider: {fileID: 7985044341751151025}
 --- !u!95 &904138654580705503
 Animator:
   serializedVersion: 7
@@ -73,16 +73,13 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!58 &8506219403827090748
-CircleCollider2D:
+--- !u!135 &7985044341751151025
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 904138654580705500}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -91,24 +88,12 @@ CircleCollider2D:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 2
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 4
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &8717181440193372587
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -160,6 +145,14 @@ PrefabInstance:
     - target: {fileID: 1788850238734753672, guid: 6e8564473013502479992471d5ca63ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788850238734753675, guid: 6e8564473013502479992471d5ca63ad, type: 3}
+      propertyPath: ShapeModule.type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788850238734753675, guid: 6e8564473013502479992471d5ca63ad, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1788850238734753717, guid: 6e8564473013502479992471d5ca63ad, type: 3}
       propertyPath: m_Name

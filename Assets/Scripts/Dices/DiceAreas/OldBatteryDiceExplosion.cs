@@ -1,13 +1,12 @@
-using System;
 using Enemies;
 using UnityEngine;
 
-namespace Dices
+namespace Dices.DiceAreas
 {
     public class OldBatteryDiceExplosion : DiceArea
     {
         public int damage;
-        public CircleCollider2D collider2D;
+        public SphereCollider collider;
         protected override void OnEnterEvent(Enemy enemy)
         {
             enemy.TakingDamage(damage);

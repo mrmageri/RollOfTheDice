@@ -49,7 +49,7 @@ namespace Dices.DiceEffect
             DorbluArea newArea = dorbluAreaObject;
             newArea.targetEnemyObj = targetEnemy.gameObject;
             newArea.upDamage = upToDamage;
-            if (damage == upToDamage) newArea.collider2D.radius = 1.25f;
+            if (damage == upToDamage) newArea.collider.radius = 4f;
             Instantiate(newArea.thisArea, targetEnemy.transform.position, Quaternion.identity);
         }
     }

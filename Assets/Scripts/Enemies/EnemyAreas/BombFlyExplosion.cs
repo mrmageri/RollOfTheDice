@@ -1,12 +1,11 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Enemies
+namespace Enemies.EnemyAreas
 {
     public class BombFlyExplosion : MonoBehaviour
     {
         [SerializeField] private int damage = 3;
-        private void OnTriggerEnter2D(Collider2D other)
+        private void OnTriggerEnter(Collider other)
         {
             Enemy newEnemy = other.GetComponent<Enemy>();
             newEnemy.TakingDamage(damage);

@@ -1,3 +1,4 @@
+using Dices.DiceAreas;
 using Enemies;
 using UnityEngine;
 
@@ -27,7 +28,7 @@ namespace Dices.DiceEffect
             OldBatteryDiceExplosion newExplosion = batteryDiceExplosion;
             newExplosion.damage = damage;
             newExplosion.targetEnemyObj = targetEnemy.gameObject;
-            if (damage == upToDamage) newExplosion.collider2D.radius = 2f;
+            if (damage == upToDamage) newExplosion.collider.radius = 6f;
             Instantiate(newExplosion.thisArea, targetEnemy.transform.position, Quaternion.identity);
         }
     }

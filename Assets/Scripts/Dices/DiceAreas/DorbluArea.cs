@@ -7,7 +7,7 @@ namespace Dices
     {
         public int upDamage = 0;
         [SerializeField] private Color poisonColor;
-        public CircleCollider2D collider2D;
+        public SphereCollider collider;
         protected override void OnEnterEvent(Enemy enemy)
         {
             if (enemy.poisonImmune) return;

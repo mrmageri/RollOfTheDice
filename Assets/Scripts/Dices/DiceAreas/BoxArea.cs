@@ -10,7 +10,7 @@ namespace Dices
     {
         [SerializeField] private Dice[] dices;
         public GameObject throwableDicePrefab;
-        public CircleCollider2D collider2D;
+        public SphereCollider collider;
         protected override void OnEnterEvent(Enemy enemy)
         {
             int rand = Random.Range(0, dices.Length);

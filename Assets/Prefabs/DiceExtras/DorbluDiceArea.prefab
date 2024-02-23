@@ -103,7 +103,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &8359025618433542118
 Transform:
   m_ObjectHideFlags: 0
@@ -4928,7 +4928,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2770324074606777921}
   - component: {fileID: 370994731502052001}
-  - component: {fileID: 4913120900921556850}
+  - component: {fileID: 1523359854868471448}
   - component: {fileID: 3906205358158115139}
   m_Layer: 0
   m_Name: DorbluDiceArea
@@ -4970,17 +4970,14 @@ MonoBehaviour:
   targetEnemyObj: {fileID: 0}
   upDamage: 0
   poisonColor: {r: 0.5058824, g: 1, b: 0.25882354, a: 1}
-  collider2D: {fileID: 4913120900921556850}
---- !u!58 &4913120900921556850
-CircleCollider2D:
+  collider: {fileID: 1523359854868471448}
+--- !u!135 &1523359854868471448
+SphereCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2770324074606777934}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -4989,24 +4986,12 @@ CircleCollider2D:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
   m_IsTrigger: 1
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Radius: 1.25
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 2
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &3906205358158115139
 Animator:
   serializedVersion: 7
