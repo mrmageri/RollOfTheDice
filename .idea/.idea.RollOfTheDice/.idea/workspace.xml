@@ -2,36 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BatteryDiceArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BatteryDiceArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BoxDiceArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BoxDiceArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/DorbluDiceArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/DorbluDiceArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.fbx.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background.fbx.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/Explosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/Explosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/PrismArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/PrismArea.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BabyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BabyFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly/BombFlyExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly/BombFlyExplosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly/BombFlyParticleExplosion.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly/BombFlyParticleExplosion.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/ElectroFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/ElectroFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FakeFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FakeFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GasMaskFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GasMaskFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GreenFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GreenFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopHeadFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopHeadFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopTinyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopTinyFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SimpleFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SimpleFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TiredFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TiredFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Dices/DorbluDice/DorbluDiceArea.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Dices/DorbluDice/DorbluDiceArea.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BabyFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BabyFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/BombFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/ElectroFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/ElectroFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FakeFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/FakeFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GasMaskFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GasMaskFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GreenFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/GreenFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopHeadFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopHeadFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopTinyFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/PoopTinyFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SimpleFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/SimpleFly.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TiredFly.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/TiredFly.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DiceArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DiceArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/OldBatteryDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/OldBatteryDice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/BombFlyExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/BombFlyExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/ElectroArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/ElectroArea.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapScene_Profiles/Main Camera Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapScene_Profiles/Main Camera Profile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BombFlyExplosion.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BombFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BabyFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" />
@@ -93,7 +93,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/Dice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScaleToFitScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
@@ -106,6 +105,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/ElectroArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/BombFlyExplosion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
       </list>
     </option>
   </component>
@@ -302,7 +303,9 @@
       <workItem from="1708611609582" duration="1202000" />
       <workItem from="1708636115620" duration="1663000" />
       <workItem from="1708640222091" duration="853000" />
-      <workItem from="1708684531975" duration="1946000" />
+      <workItem from="1708684531975" duration="2007000" />
+      <workItem from="1708721008978" duration="1043000" />
+      <workItem from="1708722141328" duration="743000" />
     </task>
     <servers />
   </component>

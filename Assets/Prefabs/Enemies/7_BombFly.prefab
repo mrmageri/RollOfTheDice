@@ -621,7 +621,7 @@ GameObject:
   - component: {fileID: 4288906625380057247}
   - component: {fileID: 7779046054143506243}
   m_Layer: 0
-  m_Name: BombFly
+  m_Name: 7_BombFly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

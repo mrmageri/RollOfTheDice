@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 
@@ -23,9 +24,9 @@ using Random = UnityEngine.Random;
         {
             public List<Enemy> enemiesPool;
         
-            public List<Enemy> enemiesAvailablePrefabs;
+            public List<Enemy> enemiesAvailable;
         
-            public List<Enemy> comingEnemiesPrefabs;
+            public List<Enemy> comingEnemies;
 
             public List<Enemy> enemiesOnScene;
         
@@ -59,9 +60,9 @@ using Random = UnityEngine.Random;
 
             public void AddEnemies(int[] IDs)
             {
-                for (int i = 0; i < IDs.Length; i++)
+                foreach (var num in IDs)
                 {
-                    enemiesAvailablePrefabs.Add(enemiesPool[IDs[i]]);
+                    enemiesAvailable.Add(enemiesPool[num]);
                 }
                 GenerateLevelEnemiesList();
             }
@@ -69,25 +70,25 @@ using Random = UnityEngine.Random;
             public void SpawningEnemies(int currentTurn)
             {
                 if (currentTurn < spawnStart) return;
-                if(comingEnemiesPrefabs.Count <= 0) return;
+                if(comingEnemies.Count <= 0) return;
                 if (currentTurn % spawnInterval == 0)
                 {
                     int newEnemiesAmount = Random.Range(1, 4);
                     //_spawnedEnemy = false;
-                    if (newEnemiesAmount > comingEnemiesPrefabs.Count) newEnemiesAmount = comingEnemiesPrefabs.Count;
+                    if (newEnemiesAmount > comingEnemies.Count) newEnemiesAmount = comingEnemies.Count;
                     for (int i = 0; i < newEnemiesAmount; ++i)
                     {
                         int spawnCellNumber = Random.Range(0, spawnPoint.Length);
                     
-                        int enemyPrefabNumber = Random.Range(0, comingEnemiesPrefabs.Count);
+                        int enemyPrefabNumber = Random.Range(0, comingEnemies.Count);
 
-                        Enemy enemy = Instantiate(comingEnemiesPrefabs[enemyPrefabNumber],
+                        Enemy enemy = Instantiate(comingEnemies[enemyPrefabNumber],
                             spawnPoint[spawnCellNumber].position, Quaternion.identity);
                         
                         enemiesOnScene.Add(enemy);
                         enemy.targetTransform = targetPoint[spawnCellNumber].transform;
                     
-                        comingEnemiesPrefabs.Remove(comingEnemiesPrefabs[enemyPrefabNumber]);
+                        comingEnemies.Remove(comingEnemies[enemyPrefabNumber]);
                         //_spawnedEnemy = true;
                     }
                 }
@@ -108,12 +109,12 @@ using Random = UnityEngine.Random;
                 int min = GetMinimumEnemyCost();
                 while (levelEnemiesPoints > 0 && levelEnemiesPoints - min >= 0)
                 { 
-                    int randomEnemyId = Random.Range(0, enemiesAvailablePrefabs.Count);
-                    int randomEnemyCost = enemiesAvailablePrefabs[randomEnemyId].enemyCost;
+                    int randomEnemyId = Random.Range(0, enemiesAvailable.Count);
+                    int randomEnemyCost = enemiesAvailable[randomEnemyId].enemyCost;
 
                     if (levelEnemiesPoints - randomEnemyCost >= 0)
                     {
-                        comingEnemiesPrefabs.Add(enemiesAvailablePrefabs[randomEnemyId]);
+                        comingEnemies.Add(enemiesAvailable[randomEnemyId]);
                         levelEnemiesPoints -= randomEnemyCost;
                     } else if (levelEnemiesPoints <= 0)
                     {
@@ -125,7 +126,7 @@ using Random = UnityEngine.Random;
             private int GetMinimumEnemyCost()
             {
                 int min = 0;
-                foreach (var elem in enemiesAvailablePrefabs)
+                foreach (var elem in enemiesAvailable)
                 {
                     if (min == 0) min = elem.enemyCost;
                     if(elem.enemyCost < min) min = elem.enemyCost;
@@ -146,7 +147,7 @@ using Random = UnityEngine.Random;
             public void RemoveEnemy(Enemy enemy)
             {
                 enemiesOnScene.Remove(enemy);
-                if (comingEnemiesPrefabs.Count == 0 && enemiesOnScene.Count == 0)
+                if (comingEnemies.Count == 0 && enemiesOnScene.Count == 0)
                 {
                     _gameManager.Winning();
                 }

@@ -340,7 +340,7 @@ GameObject:
   - component: {fileID: 526519456040938758}
   - component: {fileID: 300991626272707002}
   m_Layer: 0
-  m_Name: ElectroFly
+  m_Name: 8_ElectroFly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

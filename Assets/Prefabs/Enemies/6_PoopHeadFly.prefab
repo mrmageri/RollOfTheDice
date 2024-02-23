@@ -531,7 +531,7 @@ GameObject:
   - component: {fileID: 2669978647352559166}
   - component: {fileID: 1999508801132658371}
   m_Layer: 0
-  m_Name: PoopHeadFly
+  m_Name: 6_PoopHeadFly
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
