@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2016051873716087253}
   - component: {fileID: 8598791845372282803}
   - component: {fileID: 8635751724698679345}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: ElectroArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -65,7 +65,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 2.5
+  m_Radius: 4
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2735584157647097563
 GameObject:
