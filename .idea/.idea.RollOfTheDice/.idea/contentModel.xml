@@ -8,7 +8,6 @@
       <e p="Assets" t="Include">
         <e p="LevelScrObj" t="Include" />
         <e p="Materials" t="Include" />
-        <e p="Post-Processing" t="Include" />
         <e p="Prefabs" t="Include">
           <e p="DiceExtras" t="Include" />
           <e p="Dices" t="Include" />
@@ -17,6 +16,7 @@
             <e p="Effects" t="Include" />
           </e>
         </e>
+        <e p="Renderer" t="Include" />
         <e p="Resources" t="Include">
           <e p="GameIcons" t="Include" />
           <e p="Materials" t="Include" />
