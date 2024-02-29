@@ -241,7 +241,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 10
   enemyDamage: 2
-  enemyCost: 5
+  enemyCost: 4
   speed: 0.35
   targetTransform: {fileID: 0}
   isMovingBack: 0

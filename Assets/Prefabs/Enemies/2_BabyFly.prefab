@@ -671,7 +671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   health: 3
-  enemyDamage: 2
+  enemyDamage: 1
   enemyCost: 2
   speed: 2.25
   targetTransform: {fileID: 0}
