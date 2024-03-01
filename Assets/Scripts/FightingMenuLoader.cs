@@ -12,10 +12,8 @@ using UnityEngine.UI;
 public class FightingMenuLoader : MonoBehaviour
 {
     [SerializeField] private Animator transitionAnimator;
-    [SerializeField] private Image backgroundImage;
     [SerializeField] private int[] defaultDiceIDs = new int[] {0,1};
     [SerializeField] private int[] startDiceIDs;
-    [SerializeField] private Sprite[] backgroundPool;
      private Player.Player _player;
      private EnemiesSpawner _enemiesSpawner;
      private DiceManager _diceManager;
@@ -50,7 +48,6 @@ public class FightingMenuLoader : MonoBehaviour
              _enemiesSpawner.levelEnemiesPoints = SaveSystem.SaveSystem.LoadLevelData().levelEnemiesPoints;
              _enemiesSpawner.AddEnemies(SaveSystem.SaveSystem.LoadLevelData().enemiesIDs);
              _gameManager.currentLevelNumber = SaveSystem.SaveSystem.LoadLevelData().currentLevel;
-             backgroundImage.sprite = backgroundPool[SaveSystem.SaveSystem.LoadLevelData().backgroundID];
          }
 
          if (SaveSystem.SaveSystem.LoadDiceData() == null)

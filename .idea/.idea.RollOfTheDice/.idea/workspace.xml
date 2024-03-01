@@ -3,14 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shadow.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Shadow.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sprite Shadow.shadergraph" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Sprite Shadow.shadergraph.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene/LightingData.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene/LightingData.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MapScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +79,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/BombFlyExplosion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/ElectroArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Runtime/UniversalRenderPipeline.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
       </list>
     </option>
   </component>
@@ -289,6 +287,7 @@
       <workItem from="1708779915562" duration="26000" />
       <workItem from="1709035688794" duration="404000" />
       <workItem from="1709036244473" duration="625000" />
+      <workItem from="1709317726836" duration="881000" />
     </task>
     <servers />
   </component>

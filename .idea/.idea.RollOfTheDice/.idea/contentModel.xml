@@ -18,6 +18,8 @@
         </e>
         <e p="Renderer" t="Include" />
         <e p="Resources" t="Include">
+          <e p="Camera" t="Include" />
+          <e p="Decorations" t="Include" />
           <e p="GameIcons" t="Include" />
           <e p="Materials" t="Include" />
           <e p="Sprites" t="Include">
@@ -85,6 +87,7 @@
         </e>
         <e p="Scenes" t="Include">
           <e p="FightingScene" t="Include" />
+          <e p="MapScene" t="Include" />
           <e p="MapScene_Profiles" t="Include" />
         </e>
         <e p="Scripts" t="Include">
