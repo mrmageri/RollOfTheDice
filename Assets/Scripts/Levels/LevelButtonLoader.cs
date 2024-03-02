@@ -11,16 +11,16 @@ namespace Levels
         private bool _interactable = true;
         public SpriteRenderer levelButtonSpriteRenderer;
         [SerializeField] private string loadSceneName;
-        private LevelManager _levelManager;
+        private MainMenuManager _mainMenuManager;
 
         private void Awake()
         {
-            _levelManager = LevelManager.instanceLM;
+            _mainMenuManager = MainMenuManager.instanceMMM;
         }
 
         private void Start()
         {
-            if (_levelInfo.thisLevel != _levelManager.currentLevel)
+            if (_levelInfo.thisLevel != _mainMenuManager.currentLevel)
             {
                 _interactable = false;
             }
@@ -30,7 +30,7 @@ namespace Levels
         {
             if(!_interactable) return;
             
-            _levelManager.SetPlayerMove();
+            //_mainMenuManager.SetPlayerMove();
             SetData();
         }
         public void LoadScene(string sceneName)
@@ -40,7 +40,7 @@ namespace Levels
         
         private void SetData()
         {
-            SaveSystem.SaveSystem.SaveLevelData(_levelInfo.enemiesIDs,_levelInfo.thisLevel,_levelInfo.backgroundID,_levelInfo.levelEnemiesPoints);
+            SaveSystem.SaveSystem.SaveLevelData(_levelInfo.enemiesIDs,_levelInfo.thisLevel,_levelInfo.levelEnemiesPoints);
         }
     
     }

@@ -87,6 +87,7 @@
         </e>
         <e p="Scenes" t="Include">
           <e p="FightingScene" t="Include" />
+          <e p="MainMenu" t="Include" />
           <e p="MapScene" t="Include" />
           <e p="MapScene_Profiles" t="Include" />
         </e>
@@ -160,11 +161,11 @@
           <e p="GameManager.cs" t="Include" />
           <e p="Levels" t="Include">
             <e p="LevelButtonLoader.cs" t="Include" />
-            <e p="LevelManager.cs" t="Include" />
             <e p="LevelMenuPlayer.cs" t="Include" />
             <e p="LevelScrObject.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
           </e>
+          <e p="MainMenuManager.cs" t="Include" />
           <e p="Menu" t="Include">
             <e p="BackpackMenuManager.cs" t="Include" />
             <e p="DiceBackpackItem.cs" t="Include" />

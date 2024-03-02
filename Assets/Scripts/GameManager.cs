@@ -1,4 +1,5 @@
 using Dices;
+using Levels;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -17,6 +18,7 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private UnityEvent onGettingNewDice;
     [SerializeField] private UnityEvent onDeath;
+    [SerializeField] private LevelScrObject [] levelScrObjects;
     [Header("Transition")] 
     [SerializeField] private Animator transitionAnimator;
 
@@ -34,10 +36,10 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneName);
     }
     
-    public void ToMapTransition()
+    public void ToFightTransition()
     {
         transitionAnimator.gameObject.SetActive(true);
-        transitionAnimator.SetBool("DownMap", true);
+        transitionAnimator.SetBool("DownScene", true);
     }
 
     public void SavePlayerData()
@@ -47,7 +49,7 @@ public class GameManager : MonoBehaviour
 
     public void SaveLevelData()
     {
-        SaveSystem.SaveSystem.SaveLevelData(null, currentLevelNumber, 0,0);
+        SaveSystem.SaveSystem.SaveLevelData(null, currentLevelNumber,0);
     }
 
     public void Winning()
@@ -55,16 +57,35 @@ public class GameManager : MonoBehaviour
         fightEnded = true;
         if (currentLevelNumber % 3 == 0)
         {
-            SaveSystem.SaveSystem.SaveLevelData(null, ++currentLevelNumber, 0,0);
+            if (currentLevelNumber + 1 < levelScrObjects.Length)
+            {
+                currentLevelNumber++;
+                LevelScrObject level = levelScrObjects[currentLevelNumber];
+                SaveSystem.SaveSystem.SaveLevelData(level.enemiesIDs, currentLevelNumber,level.levelEnemiesPoints);
+            }
+            else
+            {
+                transitionAnimator.gameObject.SetActive(true);
+                transitionAnimator.SetBool("DownMain", true);
+            }
             onGettingNewDice.Invoke();
             _diceManager.DeactivateDicesButtons();
             Time.timeScale = 0;
         }
         else
         {
-            SaveSystem.SaveSystem.SaveLevelData(null, ++currentLevelNumber, 0,0);
+            if (currentLevelNumber + 1 < levelScrObjects.Length)
+            {
+                LevelScrObject level = levelScrObjects[++currentLevelNumber];
+                SaveSystem.SaveSystem.SaveLevelData(level.enemiesIDs, currentLevelNumber,level.levelEnemiesPoints);
+            }
+            else
+            {
+                transitionAnimator.gameObject.SetActive(true);
+                transitionAnimator.SetBool("DownMain", true);
+            }
             SavePlayerData();
-            ToMapTransition();
+            ToFightTransition();
             _diceManager.DeactivateDicesButtons();
             Time.timeScale = 0;
         }

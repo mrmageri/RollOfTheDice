@@ -5,26 +5,26 @@ namespace Levels
 {
     public class SceneLoader: MonoBehaviour
     {
-        private LevelManager _levelManager;
+        private MainMenuManager _mainMenuManager;
         
         private void Awake()
         {
-            _levelManager = LevelManager.instanceLM;
+            _mainMenuManager = MainMenuManager.instanceMMM;
         }
 
         public void Disable()
         {
             gameObject.SetActive(false);
         }
-        
-        public void LoadScene()
+
+        public void LoadFightingScene()
         {
-            _levelManager.LoadFightingScene();
+            SceneManager.LoadScene("FightingScene");
         }
 
-        public void LoadMapScene()
+        public void LoadMainMenuScene()
         {
-            SceneManager.LoadScene("MapScene");
+            SceneManager.LoadScene("MainMenuScene");
         }
     }
 }

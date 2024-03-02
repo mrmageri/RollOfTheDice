@@ -5,13 +5,11 @@ namespace SaveSystem
     {
         public int[] enemiesIDs;
         public int currentLevel = 0;
-        public int backgroundID;
         public int levelEnemiesPoints;
-        public LevelData( int[] newEnemiesIds, int newCurrentLevel, int newBackground, int newLevelEnemiesPoints)
+        public LevelData( int[] newEnemiesIds, int newCurrentLevel, int newLevelEnemiesPoints)
         {
             currentLevel = newCurrentLevel;
             enemiesIDs = newEnemiesIds;
-            backgroundID = newBackground;
             levelEnemiesPoints = newLevelEnemiesPoints;
         }
     }

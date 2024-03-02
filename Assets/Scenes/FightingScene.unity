@@ -5175,7 +5175,7 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 560887507}
         m_TargetAssemblyTypeName: Levels.SceneLoader, Assembly-CSharp
-        m_MethodName: LoadMapScene
+        m_MethodName: LoadMainMenuScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6374,18 +6374,6 @@ MonoBehaviour:
       - m_Target: {fileID: 2133719288}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: SavePlayerData
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 2133719288}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
-        m_MethodName: SaveLevelData
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -9997,6 +9985,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  levelScrObjects:
+  - {fileID: 11400000, guid: 714d15899b946264b92e0ad64ef4ca12, type: 2}
+  - {fileID: 11400000, guid: 93bdc896716822747b2fbc50f9eef9bb, type: 2}
+  - {fileID: 11400000, guid: 669ad3c8756382e4b8034f3e64af542f, type: 2}
+  - {fileID: 11400000, guid: b5445dd08f58c6242947dfcc18d07e92, type: 2}
+  - {fileID: 11400000, guid: 80fe059718267434bbd6353740d1801a, type: 2}
+  - {fileID: 11400000, guid: 3b40582d2281f4e42bc4dc645d62ae76, type: 2}
+  - {fileID: 11400000, guid: 2302adf08b3d26f4597e4da0f8432bac, type: 2}
+  - {fileID: 11400000, guid: b563ecdeb8797d04b8719b4decb5705c, type: 2}
+  - {fileID: 11400000, guid: f0a8cebd0b195d4448dda1f9cd880516, type: 2}
+  - {fileID: 11400000, guid: 00e68ea263514a94cae8abf2d7f1eea3, type: 2}
   transitionAnimator: {fileID: 7849401560193623536}
 --- !u!1 &2144583189
 GameObject:

@@ -104,7 +104,7 @@ namespace Menu
             transitionCloser.SetActive(true);
             if (_gameManager.fightEnded && _isInBackpack)
             {
-                _gameManager.ToMapTransition();
+                _gameManager.ToFightTransition();
             }
 
             if (!_isInBackpack)
