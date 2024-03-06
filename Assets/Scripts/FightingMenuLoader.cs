@@ -1,18 +1,11 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.IO;
-using System.Runtime.Serialization.Formatters.Binary;
 using Dices;
 using Enemies;
-using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class FightingMenuLoader : MonoBehaviour
 {
     [SerializeField] private Animator transitionAnimator;
-    [SerializeField] private int[] defaultDiceIDs = new int[] {0,1};
+    [SerializeField] private int[] defaultDiceIDs = new int[] {0};
     [SerializeField] private int[] startDiceIDs;
      private Player.Player _player;
      private EnemiesSpawner _enemiesSpawner;
@@ -22,6 +15,7 @@ public class FightingMenuLoader : MonoBehaviour
 
      private void Awake()
      {
+         Time.timeScale = 1;
          transitionAnimator.SetBool("Up",true);
           _player = Player.Player.instancePlayer;
           _diceManager = DiceManager.instanceDm;

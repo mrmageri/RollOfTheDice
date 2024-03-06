@@ -202,7 +202,7 @@ MonoBehaviour:
   diceName: Glove
   description: Knock out!
   isOpened: 1
-  diceRarity: 5
+  diceRarity: 3
   onPlayerHealthEffect: 0
   diceReloadingType: 0
   reloadingPoints: 0

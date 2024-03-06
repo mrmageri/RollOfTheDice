@@ -277,7 +277,7 @@ MonoBehaviour:
   diceName: 666
   description: The deal.
   isOpened: 1
-  diceRarity: 3
+  diceRarity: 4
   onPlayerHealthEffect: 0
   diceReloadingType: 3
   reloadingPoints: 0
