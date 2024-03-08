@@ -18,6 +18,9 @@
         </e>
         <e p="Renderer" t="Include" />
         <e p="Resources" t="Include">
+          <e p="Animation" t="Include">
+            <e p="Button" t="Include" />
+          </e>
           <e p="Camera" t="Include" />
           <e p="GameIcons" t="Include" />
           <e p="Materials" t="Include" />
@@ -77,6 +80,7 @@
             <e p="PlayerDice" t="Include" />
             <e p="PlayerTrash" t="Include" />
             <e p="UI" t="Include">
+              <e p="Buttons" t="Include" />
               <e p="Dice" t="Include" />
               <e p="MenuAnimetions" t="Include">
                 <e p="SceneTransition" t="Include" />
