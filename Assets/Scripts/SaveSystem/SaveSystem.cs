@@ -52,13 +52,13 @@ namespace SaveSystem
             }
         }
         
-        public static void SaveLevelData( int[] newEnemiesIds,int newCurrentLevel, int newLevelEnemiesPoints)
+        public static void SaveLevelData(int newCurrentLevel)
         {
             BinaryFormatter formatter = new BinaryFormatter();
             string path = Application.persistentDataPath + "/levelData.rotd";
             FileStream stream = new FileStream(path, FileMode.Create);
         
-            LevelData data = new LevelData(newEnemiesIds,newCurrentLevel,newLevelEnemiesPoints);
+            LevelData data = new LevelData(newCurrentLevel);
             formatter.Serialize(stream, data);
             stream.Close();
         }

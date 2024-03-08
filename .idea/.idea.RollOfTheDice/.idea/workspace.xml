@@ -22,10 +22,36 @@
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/Button/Button.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/Button/Button.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/Button.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/Button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/Button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/Button.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 0.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 0.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 1.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 1.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 2.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 2.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 3.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 3.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 4.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 4.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 5.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 5.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 6.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 6.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 7.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 7.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 8.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 8.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 9.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +64,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/SixSixSixDice.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Runtime/UniversalRenderPipeline.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -50,7 +75,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/PrismArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/StunnedStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/FreezedStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PunchStatus.cs" />
@@ -85,7 +109,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/BombFlyExplosion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/ElectroArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Runtime/UniversalRenderPipeline.cs" />
@@ -93,13 +116,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelGenerator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" />
       </list>
     </option>
@@ -309,7 +334,7 @@
       <workItem from="1709381305943" duration="443000" />
       <workItem from="1709564870065" duration="1728000" />
       <workItem from="1709566679822" duration="525000" />
-      <workItem from="1709918559731" duration="1014000" />
+      <workItem from="1709918559731" duration="2488000" />
     </task>
     <servers />
   </component>

@@ -1,3 +1,4 @@
+using System;
 using Dices;
 using Levels;
 using UnityEngine;
@@ -15,10 +16,12 @@ public class GameManager : MonoBehaviour
     {
         instanceGm = this;
     }
+
+    [Header("LevelInfo")] 
+    [SerializeField] private int maxLevelNUmber = 20;
     
     [SerializeField] private UnityEvent onGettingNewDice;
     [SerializeField] private UnityEvent onDeath;
-    [SerializeField] private LevelScrObject [] levelScrObjects;
     [Header("Transition")] 
     [SerializeField] private Animator transitionAnimator;
 
@@ -49,7 +52,7 @@ public class GameManager : MonoBehaviour
 
     public void SaveLevelData()
     {
-        SaveSystem.SaveSystem.SaveLevelData(null, currentLevelNumber,0);
+        SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
     }
 
     public void Winning()
@@ -57,11 +60,10 @@ public class GameManager : MonoBehaviour
         fightEnded = true;
         if (currentLevelNumber % 3 == 0)
         {
-            if (currentLevelNumber + 1 < levelScrObjects.Length)
+            if (currentLevelNumber + 1 < maxLevelNUmber)
             {
                 currentLevelNumber++;
-                LevelScrObject level = levelScrObjects[currentLevelNumber];
-                SaveSystem.SaveSystem.SaveLevelData(level.enemiesIDs, currentLevelNumber,level.levelEnemiesPoints);
+                SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
             }
             else
             {
@@ -74,10 +76,10 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            if (currentLevelNumber + 1 < levelScrObjects.Length)
+            if (currentLevelNumber + 1 < maxLevelNUmber)
             {
-                LevelScrObject level = levelScrObjects[++currentLevelNumber];
-                SaveSystem.SaveSystem.SaveLevelData(level.enemiesIDs, currentLevelNumber,level.levelEnemiesPoints);
+                currentLevelNumber++;
+                SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
             }
             else
             {

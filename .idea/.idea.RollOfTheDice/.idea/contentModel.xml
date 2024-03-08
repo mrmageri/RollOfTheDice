@@ -6,7 +6,6 @@
     <e p="E:\GitHub\RollOfTheDice" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="LevelScrObj" t="Include" />
         <e p="Materials" t="Include" />
         <e p="Prefabs" t="Include">
           <e p="DiceExtras" t="Include" />
@@ -167,7 +166,6 @@
           <e p="Levels" t="Include">
             <e p="LevelButtonLoader.cs" t="Include" />
             <e p="LevelMenuPlayer.cs" t="Include" />
-            <e p="LevelScrObject.cs" t="Include" />
             <e p="SceneLoader.cs" t="Include" />
           </e>
           <e p="MainMenuManager.cs" t="Include" />

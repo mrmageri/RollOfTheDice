@@ -58,11 +58,11 @@ using Random = UnityEngine.Random;
             }
 
 
-            public void AddEnemies(int[] IDs)
+            public void AddEnemies(int maxId)
             {
-                foreach (var num in IDs)
+                for (int i = 0; i < maxId; i++)
                 {
-                    enemiesAvailable.Add(enemiesPool[num]);
+                    enemiesAvailable.Add(enemiesPool[i]);
                 }
                 GenerateLevelEnemiesList();
             }

@@ -7,7 +7,6 @@ namespace Levels
 {
     public class LevelButtonLoader : MonoBehaviour
     {
-        public LevelScrObject _levelInfo;
         private bool _interactable = true;
         public SpriteRenderer levelButtonSpriteRenderer;
         [SerializeField] private string loadSceneName;
@@ -20,10 +19,10 @@ namespace Levels
 
         private void Start()
         {
-            if (_levelInfo.thisLevel != _mainMenuManager.currentLevel)
+            /*if (_levelInfo.thisLevel != _mainMenuManager.currentLevel)
             {
                 _interactable = false;
-            }
+            }*/
         }
         
         private void OnMouseDown()
@@ -40,7 +39,7 @@ namespace Levels
         
         private void SetData()
         {
-            SaveSystem.SaveSystem.SaveLevelData(_levelInfo.enemiesIDs,_levelInfo.thisLevel,_levelInfo.levelEnemiesPoints);
+           // SaveSystem.SaveSystem.SaveLevelData(_levelInfo.thisLevel);
         }
     
     }

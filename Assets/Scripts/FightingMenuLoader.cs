@@ -39,9 +39,10 @@ public class FightingMenuLoader : MonoBehaviour
          }
          if (SaveSystem.SaveSystem.LoadLevelData() != null)
          {
-             _enemiesSpawner.levelEnemiesPoints = SaveSystem.SaveSystem.LoadLevelData().levelEnemiesPoints;
-             _enemiesSpawner.AddEnemies(SaveSystem.SaveSystem.LoadLevelData().enemiesIDs);
              _gameManager.currentLevelNumber = SaveSystem.SaveSystem.LoadLevelData().currentLevel;
+             var cLevel = _gameManager.currentLevelNumber;
+             _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 4 + 2) * 5;
+             GenerateLevel(cLevel);
          }
 
          if (SaveSystem.SaveSystem.LoadDiceData() == null)
@@ -65,6 +66,13 @@ public class FightingMenuLoader : MonoBehaviour
                  _diceManager.dicesPool[i].isOpened = SaveSystem.SaveSystem.LoadDiceData().diceInfo[i];
              }
          }
+     }
+     
+     private void GenerateLevel(int cLevel)
+     {
+         int enemiesMaxId = 0;
+         enemiesMaxId = cLevel <= 3 ?  3 : (cLevel / 6 + 1) * 3;
+         _enemiesSpawner.AddEnemies(enemiesMaxId);
      }
     
      

@@ -11,7 +11,6 @@ public class MainMenuManager : MonoBehaviour
     public bool playerCanMove = false;
     public int currentLevel = 0;
         
-    [SerializeField] private LevelScrObject[] levelScrObjects;
     private string fightingStr = "FightingScene";
     public GameObject transitionObj;
     [SerializeField] private Animator transitionAnimator;
@@ -74,8 +73,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void LoadFightingScene()
     {
-        LevelScrObject level = levelScrObjects[currentLevel];
-        SaveSystem.SaveSystem.SaveLevelData(level.enemiesIDs,level.thisLevel,level.levelEnemiesPoints);
+        SaveSystem.SaveSystem.SaveLevelData(currentLevel);
         ActivateTransition();
     }
 
