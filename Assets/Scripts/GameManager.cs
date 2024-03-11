@@ -45,6 +45,12 @@ public class GameManager : MonoBehaviour
         transitionAnimator.SetBool("DownScene", true);
     }
 
+    public void ToMainMenu()
+    {
+        transitionAnimator.gameObject.SetActive(true);
+        transitionAnimator.SetBool("DownMain", true);
+    }
+
     public void SavePlayerData()
     {
         SaveSystem.SaveSystem.SavePlayerData(_player.playerHealth,_player.maxPlayerHealth, _diceManager.dicesIDs);
@@ -67,8 +73,7 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                transitionAnimator.gameObject.SetActive(true);
-                transitionAnimator.SetBool("DownMain", true);
+                ToMainMenu();
             }
             onGettingNewDice.Invoke();
             _diceManager.DeactivateDicesButtons();
@@ -83,8 +88,7 @@ public class GameManager : MonoBehaviour
             }
             else
             {
-                transitionAnimator.gameObject.SetActive(true);
-                transitionAnimator.SetBool("DownMain", true);
+                ToMainMenu();
             }
             SavePlayerData();
             ToFightTransition();

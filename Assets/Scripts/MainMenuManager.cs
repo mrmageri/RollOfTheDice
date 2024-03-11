@@ -77,6 +77,11 @@ public class MainMenuManager : MonoBehaviour
         ActivateTransition();
     }
 
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
     /*private void SetCompletedLevels()
         {
             foreach (var elem in levelButtonLoaders)

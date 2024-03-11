@@ -60,6 +60,7 @@ using Random = UnityEngine.Random;
 
             public void AddEnemies(int maxId)
             {
+                if (maxId >= enemiesPool.Count) maxId = enemiesPool.Count - 1;
                 for (int i = 0; i < maxId; i++)
                 {
                     enemiesAvailable.Add(enemiesPool[i]);

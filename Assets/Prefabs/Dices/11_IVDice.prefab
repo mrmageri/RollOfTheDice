@@ -202,7 +202,7 @@ MonoBehaviour:
   diceName: IV Bag
   description: Blood donor.
   isOpened: 1
-  diceRarity: 2
+  diceRarity: 1
   onPlayerHealthEffect: 0
   diceReloadingType: 0
   reloadingPoints: 0

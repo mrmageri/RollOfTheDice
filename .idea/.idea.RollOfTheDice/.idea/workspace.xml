@@ -20,38 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 0.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 0.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 3.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 3.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 4.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 4.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 5.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 5.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 6.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 6.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 7.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 7.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 8.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 8.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 9.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/LevelScrObj/Level 9.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/11_IVDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/11_IVDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Fonts/LilitaOne-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Fonts/LilitaOne-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,14 +95,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -335,6 +312,8 @@
       <workItem from="1709564870065" duration="1728000" />
       <workItem from="1709566679822" duration="525000" />
       <workItem from="1709918559731" duration="2488000" />
+      <workItem from="1710016745234" duration="981000" />
+      <workItem from="1710091756285" duration="1650000" />
     </task>
     <servers />
   </component>

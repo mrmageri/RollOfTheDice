@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cb77a365e0a461f4e9e3d1b2f4d7819a
+guid: eba4d99d8960f604ab771c86299450fd
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -9,7 +9,7 @@ TrueTypeFontImporter:
   characterPadding: 1
   includeFontData: 1
   fontNames:
-  - Lilita One
+  - Gamefont
   fallbackFontReferences: []
   customCharacters: 
   fontRenderingMode: 0
