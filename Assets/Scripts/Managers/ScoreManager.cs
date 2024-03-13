@@ -14,6 +14,7 @@ public class ScoreManager : MonoBehaviour
     
     [SerializeField] private GameObject scoreObj;
     [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private Animator _animator;
     private bool _scoreIsActive = true;
 
     private void Awake()
@@ -26,7 +27,7 @@ public class ScoreManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Tab))
         {
             _scoreIsActive = !_scoreIsActive;
-            scoreObj.SetActive(_scoreIsActive);
+            _animator.SetBool("isOn",_scoreIsActive);
         }
     }
 

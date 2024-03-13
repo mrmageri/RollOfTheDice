@@ -28,40 +28,20 @@ public class MainMenuManager : MonoBehaviour
 
     private void Start()
     {
-        if (currentLevel != 0)
+        if(SaveSystem.SaveSystem.LoadLevelData() != null)
+        //if (currentLevel != 0)
         {
             loadButton.interactable = true;
         }
     }
 
-    /*private void Start()
-        {
-
-            SetCompletedLevels();
-        }*/
-
-    /*private void Update()
-        {
-            if(playerCanMove) MovingSmallPlayer();
-        }*/
-        
     public void ClearGameFiles()
     {
         SaveSystem.SaveSystem.DeleteAllData();
         currentLevel = 0;
     }
 
-    /*public void SetPlayerMove()
-        {
-            if (currentLevel == 0)
-            {
-                ActivateTransition();
-            }
-            else
-            {
-                playerCanMove = true;
-            }
-        }*/
+
         
     private void ActivateTransition()
     {
@@ -80,36 +60,4 @@ public class MainMenuManager : MonoBehaviour
         Application.Quit();
     }
 
-    /*private void SetCompletedLevels()
-        {
-            foreach (var elem in levelButtonLoaders)
-            {
-                if (elem._levelInfo.thisLevel < currentLevel)
-                { 
-                    elem.levelButtonSpriteRenderer.color = completeLevelColor;
-                } 
-                else if (elem._levelInfo.thisLevel > currentLevel)
-                { 
-                    elem.levelButtonSpriteRenderer.color = nextLevelColor;
-                }
-            }
-            if (currentLevel == levelButtonLoaders.Length)
-            {
-                onWin.Invoke();
-            }
-        }*/
-
-    /*private void MovingSmallPlayer()
-        {
-            if (player.transform.position != levelButtonLoaders[currentLevel].transform.position)
-            {
-                playerAnimator.SetBool("running", true);
-                player.transform.position = Vector3.MoveTowards(player.transform.position,levelButtonLoaders[currentLevel].transform.position, playerSpeed * Time.deltaTime);
-            }
-            else
-            {
-                playerCanMove = false;
-                playerAnimator.SetBool("running", false);
-            }
-        }*/
 }

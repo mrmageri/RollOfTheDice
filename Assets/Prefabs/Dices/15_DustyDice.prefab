@@ -66,7 +66,7 @@ MonoBehaviour:
   diceName: Dusty Dice
   description: Not allergic friendly!
   isOpened: 1
-  diceRarity: 4
+  diceRarity: 5
   onPlayerHealthEffect: 0
   diceReloadingType: 1
   reloadingPoints: 0
