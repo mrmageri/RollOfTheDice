@@ -53,7 +53,7 @@ public class GameManager : MonoBehaviour
 
     public void SavePlayerData()
     {
-        SaveSystem.SaveSystem.SavePlayerData(_player.playerHealth,_player.maxPlayerHealth, _diceManager.dicesIDs);
+        SaveSystem.SaveSystem.SavePlayerData(_player.health,_player.maxHealth, _diceManager.dicesIDs, ScoreManager.instanceSm.score);
     }
 
     public void SaveLevelData()

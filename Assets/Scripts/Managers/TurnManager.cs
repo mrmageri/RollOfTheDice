@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using Dices;
 using Enemies;
 using UnityEngine;
@@ -42,6 +40,7 @@ public class TurnManager : MonoBehaviour
     private void NewTurn()
     {
         ++turnNumber;
+        //ScoreManager.instanceSm.RemoveScore(1);
         _diceManager.UpdateOnTimeReloadingPoints();
         enemiesSpawner.SpawningEnemies(turnNumber);
         if (enemiesSpawner.enemiesOnScene.Count <= 0) return;

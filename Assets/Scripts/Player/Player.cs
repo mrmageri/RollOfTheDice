@@ -12,9 +12,9 @@ namespace Player
     {
         public readonly int defaultMaxHealth = 20;
         
-        public int playerHealth  = 20;
-        public int maxPlayerHealth = 20;
-        public TMP_Text playerHealthText;
+        public int health  = 20;
+        public int maxHealth = 20;
+        public TMP_Text healthText;
 
         [Header("HealthBar")] 
         [SerializeField] private Image mainBar;
@@ -68,21 +68,33 @@ namespace Player
 
         public void HealingPlayer(int heal)
         {
-            if (playerHealth + heal > maxPlayerHealth)
+            if (health + heal > maxHealth)
             {
-                playerHealth = maxPlayerHealth;
+                health = maxHealth;
             }
             else
             {
-                playerHealth += heal;
+                health += heal;
             }
             UpdateTextData();
         }
 
         public void SetMaxPlayerHealth(int newMaxHealth)
         {
-            maxPlayerHealth = newMaxHealth;
-            if(playerHealth > maxPlayerHealth) playerHealth = maxPlayerHealth;
+            if (health == maxHealth)
+            {
+                health = newMaxHealth;
+                
+            }
+            else
+            {
+                float mh = maxHealth;
+                float h = health;
+                float part = h / mh;
+                health = (int) (part * newMaxHealth);
+            }
+            maxHealth = newMaxHealth;
+            if(health > maxHealth) health = maxHealth;
             UpdateTextData();
         }
         
@@ -90,16 +102,16 @@ namespace Player
         public void TakingDamage(int damage)
         {
             _diceManager.UpdateOnGettingHitReloadingPoints(damage);
-            if (playerHealth - damage <= 0)
+            if (health - damage <= 0)
             {
-                playerHealth = 0;
+                health = 0;
                 UpdateTextData();
                 _gameManager.Death();
                 isAlive = false;
             }
             else
             {
-                playerHealth -= damage;
+                health -= damage;
                 UpdateTextData();
             } 
         
@@ -116,9 +128,9 @@ namespace Player
 
         private void UpdateTextData()
         {
-            playerHealthText.text = playerHealth.ToString();
-            float cur = playerHealth;
-            float max = maxPlayerHealth;
+            healthText.text = health.ToString();
+            float cur = health;
+            float max = maxHealth;
             float fill = cur / max;
             mainBar.fillAmount = fill;
         }

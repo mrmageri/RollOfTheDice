@@ -237,6 +237,9 @@ namespace Enemies
             if(!animator.GetBool("isFighting")) animator.SetBool("isFighting", true);*/
 
 
-        protected abstract void EventOnDeath();
+        protected void EventOnDeath()
+        {
+            ScoreManager.instanceSm.AddScore(enemyCost);
+        }
     }
 }

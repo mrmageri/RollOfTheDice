@@ -27,7 +27,7 @@ namespace Enemies.EnemiesVariants
         }
         
 
-        protected override void EventOnDeath()
+        protected new void EventOnDeath()
         {
             Instantiate(explosion, transform.position, Quaternion.identity);
             Instantiate(explosionParticle, transform.position, Quaternion.identity);

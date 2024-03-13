@@ -20,7 +20,7 @@ namespace Enemies.EnemiesVariants
             if(!animator.GetBool("isFighting")) animator.SetBool("isFighting", true);
         }
 
-        protected override void EventOnDeath()
+        protected new void EventOnDeath()
         {
             DamagingPlayer();
         }

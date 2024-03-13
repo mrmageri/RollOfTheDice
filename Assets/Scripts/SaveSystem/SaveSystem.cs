@@ -7,13 +7,13 @@ namespace SaveSystem
 {
     public static class SaveSystem
     {
-        public static void SavePlayerData(int playerHP,int maxPlayerHP, int[] currentDicesIDs)
+        public static void SavePlayerData(int playerHP,int maxPlayerHP, int[] currentDicesIDs,ulong score)
         {
             BinaryFormatter formatter = new BinaryFormatter();
             string path = Application.persistentDataPath + "/playerData.rotd";
             FileStream stream = new FileStream(path, FileMode.Create);
         
-            PlayerData data = new PlayerData(playerHP, maxPlayerHP, currentDicesIDs);
+            PlayerData data = new PlayerData(playerHP, maxPlayerHP, currentDicesIDs,score);
             formatter.Serialize(stream, data);
             stream.Close();
         }

@@ -58,36 +58,16 @@ namespace Dices
         public void LoadDices(int[] ids)
         {
             dicesIDs = ids;
-            bool changedPlayerHealth = false;
             for (int i = 0; i < ids.Length; i++)
             {
                 dices.Add(dicesPool[ids[i]]);
             }
             _player.SetMaxPlayerHealth(_player.defaultMaxHealth);
-            bool hasGlass = false;
             for (int i = 0; i < dices.Count; i++)
             {
                 GameObject newDice = Instantiate(dices[i].gameObject,diceLayout.position,Quaternion.identity,diceLayout);
                 dices[i] = newDice.GetComponent<Dice>();
-                switch (dices[i].onPlayerHealthEffect)
-                {
-                    case OnPlayerHealthEffect.None:
-                        break;
-                    case OnPlayerHealthEffect.HealthUp:
-                        _player.SetMaxPlayerHealth(_player.maxPlayerHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthUp));
-                        changedPlayerHealth = true;
-                        break;
-                    case OnPlayerHealthEffect.HealthDown:
-                        if (_player.maxPlayerHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown) <= 0)
-                            _player.maxPlayerHealth = 1;
-                        _player.SetMaxPlayerHealth(_player.maxPlayerHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown));
-                        changedPlayerHealth = true;
-                        break;
-                    case OnPlayerHealthEffect.Glass:
-                        changedPlayerHealth = true;
-                        hasGlass = true;
-                        break;
-                }
+                
 
                 switch (dices[i].diceReloadingType)
                 {
@@ -108,8 +88,6 @@ namespace Dices
                         break;
                 }
             }
-            if (hasGlass) _player.SetMaxPlayerHealth(Convert.ToInt32(OnPlayerHealthEffect.Glass));
-            if(!changedPlayerHealth) _player.SetMaxPlayerHealth(_player.defaultMaxHealth);
         }
 
         public void ReloadDices()
@@ -161,7 +139,9 @@ namespace Dices
 
         public void ReplaceDice(int index, int newId)
         {
+            CheckDecreaseHealth(dices[index]);
             dicesIDs[index] = newId;
+            CheckIncreaseHealth(dices[index]);
             _gameManager.SavePlayerData();
         }
 
@@ -185,6 +165,7 @@ namespace Dices
             if (index < 4)
             {
                 Destroy(dices[index].gameObject);
+                CheckDecreaseHealth(dices[index]);
                 dices.Remove(dices[index]);
                 _iDsLenght = dicesIDs.Length;
                 int[] tmpIDs = new int[_iDsLenght - 1];
@@ -225,6 +206,7 @@ namespace Dices
                 GameObject newDice = Instantiate(dices[dices.Count-1].gameObject,diceLayout.position,Quaternion.identity,diceLayout);
                 dices[dices.Count - 1] = newDice.GetComponent<Dice>();
                 CheckDiceIcon(dices[dices.Count - 1]);
+                CheckIncreaseHealth(dices[dices.Count - 1]);
                 _gameManager.SavePlayerData();
             }
         }
@@ -357,6 +339,45 @@ namespace Dices
                     break;
             }
         }
+
+        private void CheckIncreaseHealth(Dice dice)
+        {
+            switch (dice.onPlayerHealthEffect)
+            {
+                case OnPlayerHealthEffect.None:
+                    break;
+                case OnPlayerHealthEffect.HealthUp:
+                    _player.SetMaxPlayerHealth(_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthUp));
+                    break;
+                case OnPlayerHealthEffect.HealthDown:
+                    if (_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown) <= 0)
+                        _player.maxHealth = 1;
+                    _player.SetMaxPlayerHealth(_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown));
+                    break;
+                case OnPlayerHealthEffect.Glass:
+                    _player.SetMaxPlayerHealth(Convert.ToInt32(OnPlayerHealthEffect.Glass));
+                    break;
+            }
+        }
         
+        private void CheckDecreaseHealth(Dice dice)
+        {
+            switch (dice.onPlayerHealthEffect)
+            {
+                case OnPlayerHealthEffect.None:
+                    break;
+                case OnPlayerHealthEffect.HealthUp:
+                    _player.SetMaxPlayerHealth(_player.maxHealth - Convert.ToInt32(OnPlayerHealthEffect.HealthUp));
+                    break;
+                case OnPlayerHealthEffect.HealthDown:
+                    if (_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown) <= 0)
+                        _player.maxHealth = 1;
+                    _player.SetMaxPlayerHealth(_player.maxHealth - Convert.ToInt32(OnPlayerHealthEffect.HealthDown));
+                    break;
+                case OnPlayerHealthEffect.Glass:
+                    _player.SetMaxPlayerHealth(_player.defaultMaxHealth);
+                    break;
+            }
+        }
     }
 }

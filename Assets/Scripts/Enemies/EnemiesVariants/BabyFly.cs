@@ -19,13 +19,6 @@ namespace Enemies.EnemiesVariants
             }
             if(!animator.GetBool("isFighting")) animator.SetBool("isFighting", true);
         }
-
         
-        
-
-        protected override void EventOnDeath()
-        {
-            //throw new System.NotImplementedException();
-        }
     }
 }
