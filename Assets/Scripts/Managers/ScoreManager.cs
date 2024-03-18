@@ -16,8 +16,9 @@ public class ScoreManager : MonoBehaviour
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private Animator _animator;
     private bool _scoreIsActive = true;
+    
 
-    private void Awake()
+    private void Start()
     {
         UpdateText();
     }
