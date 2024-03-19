@@ -62,7 +62,6 @@ namespace Dices
             {
                 dices.Add(dicesPool[ids[i]]);
             }
-            _player.SetMaxPlayerHealth(_player.defaultMaxHealth);
             for (int i = 0; i < dices.Count; i++)
             {
                 GameObject newDice = Instantiate(dices[i].gameObject,diceLayout.position,Quaternion.identity,diceLayout);

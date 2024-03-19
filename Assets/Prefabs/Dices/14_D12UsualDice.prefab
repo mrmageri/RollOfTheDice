@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 14
   diceName: D12
-  description: Ordinary D12
+  description: Ordinary D12.
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0

@@ -238,7 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 5
   diceName: Ember
-  description: Still warm.
+  description: Ouch! It burns!
   isOpened: 1
   diceRarity: 4
   onPlayerHealthEffect: 0

@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 17
   diceName: Box with Dices
-  description: ' How many are there?!'
+  description: What's in it?
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0

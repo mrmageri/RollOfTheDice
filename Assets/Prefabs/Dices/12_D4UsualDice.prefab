@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 12
   diceName: Pyramid
-  description: Ordinary D4
+  description: Ordinary D4.
   isOpened: 1
   diceRarity: 5
   onPlayerHealthEffect: 0

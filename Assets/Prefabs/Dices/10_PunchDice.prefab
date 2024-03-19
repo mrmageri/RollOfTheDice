@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 10
   diceName: Glove
-  description: Knock out!
+  description: Punch out!
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0

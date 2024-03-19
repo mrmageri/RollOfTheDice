@@ -46,6 +46,11 @@ public class ScoreManager : MonoBehaviour
         UpdateScore();
     }
 
+    public void SetOnAnim()
+    {
+        _animator.SetBool("isOn",_scoreIsActive);
+    }
+
     private void UpdateScore()
     {
         scoreText.text = "score: " + score;

@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 9
   diceName: Honey
-  description: So sweet and sticky.
+  description: So sweet and sticky!
   isOpened: 1
   diceRarity: 4
   onPlayerHealthEffect: 0

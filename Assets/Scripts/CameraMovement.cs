@@ -1,7 +1,7 @@
-using System;
 using UnityEngine;
 
-
+namespace Assets.Scripts
+{
     public class CameraMovement : MonoBehaviour
     {
         [SerializeField] private float speed = 3f;
@@ -26,4 +26,5 @@ using UnityEngine;
             }
         }
     }
+}
 

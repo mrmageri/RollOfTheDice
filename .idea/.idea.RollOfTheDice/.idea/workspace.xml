@@ -22,15 +22,30 @@
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/riderModule.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/riderModule.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/0_D6UsualDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/0_D6UsualDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/10_PunchDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/10_PunchDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/12_D4UsualDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/12_D4UsualDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/14_D12UsualDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/14_D12UsualDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/17_WaxDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/17_WaxDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/18_BoxDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/18_BoxDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/19_BatteryDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/19_BatteryDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/23_UraniumDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/23_UraniumDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/3_OldBatteryDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/3_OldBatteryDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/4_SixSixSixDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/4_SixSixSixDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/5_EmberDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/5_EmberDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/6_DorbluDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/6_DorbluDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/7_IceDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/7_IceDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/9_HoneyDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/9_HoneyDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/Button/TrashButton.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/Button/TrashButton.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/Score/ScoreLayout.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/Score/ScoreLayout.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/Score/Score_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/Score/Score_Idle.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Animation/Score/Score_Off.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Animation/Score/Score_Off.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/MenuAnimetions/SceneTransition/SceneTransition.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/MenuAnimetions/SceneTransition/SceneTransition.controller" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/LevelMenuPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LoadScene.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelMenuPlayer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BombFlyExplosion.cs" />
@@ -77,7 +91,6 @@
         <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Runtime/UniversalRenderPipeline.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" />
@@ -98,13 +111,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TurnManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
       </list>
     </option>
   </component>
@@ -125,7 +140,7 @@
     <property name="settings.editor.splitter.proportion" value="0.20875764" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Standalone Player" type="RunUnityExe" factoryName="Unity Executable">
       <option name="EXE_PATH" value="$PROJECT_DIR$/Builds/RollOfTheDice.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
@@ -324,6 +339,9 @@
       <workItem from="1710832646467" duration="1171000" />
       <workItem from="1710837889615" duration="143000" />
       <workItem from="1710838067577" duration="943000" />
+      <workItem from="1710843901473" duration="2097000" />
+      <workItem from="1710846162594" duration="2004000" />
+      <workItem from="1710848461338" duration="1460000" />
     </task>
     <servers />
   </component>
@@ -348,6 +366,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="161" key="#Plugins" timestamp="1710848422833">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="161" key="#Plugins/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1710848422833" />
     <state x="794" y="236" key="RiderGenerateDialog" timestamp="1705827663763">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -360,10 +382,6 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1709366605139" />
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1701695290965">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1701695290965" />
     <state x="564" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1703280054169">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

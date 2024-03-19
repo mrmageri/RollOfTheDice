@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 3
   diceName: Old Battery
-  description: Unstable 9V
+  description: Unstable 9V.
   isOpened: 1
   diceRarity: 2
   onPlayerHealthEffect: 0

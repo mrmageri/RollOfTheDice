@@ -74,6 +74,8 @@ public class GameManager : MonoBehaviour
             else
             {
                 ToMainMenu();
+                SaveSystem.SaveSystem.DeleteAllData();
+                return;
             }
             onGettingNewDice.Invoke();
             _diceManager.DeactivateDicesButtons();
@@ -89,6 +91,8 @@ public class GameManager : MonoBehaviour
             else
             {
                 ToMainMenu();
+                SaveSystem.SaveSystem.DeleteAllData();
+                return;
             }
             SavePlayerData();
             ToFightTransition();

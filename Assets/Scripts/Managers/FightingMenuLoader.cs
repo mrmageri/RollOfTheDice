@@ -1,6 +1,8 @@
-using Dices;
+﻿using Dices;
 using Enemies;
 using UnityEngine;
+
+
 
 public class FightingMenuLoader : MonoBehaviour
 {
@@ -16,62 +18,60 @@ public class FightingMenuLoader : MonoBehaviour
 
     private void Awake()
     {
-        Time.timeScale = 1;
-        transitionAnimator.SetBool("Up",true);
-        _player = Player.Player.instancePlayer;
-        _diceManager = DiceManager.instanceDm;
-        _enemiesSpawner = EnemiesSpawner.instanceES;
-        _gameManager = GameManager.instanceGm;
-        _scoreManager = ScoreManager.instanceSm;
-    }
-     
-    public void Start()
-    {
-        if (SaveSystem.SaveSystem.LoadPlayerData() == null)
-        {
-            _player.maxHealth = _player.defaultMaxHealth;
-            _player.health = _player.maxHealth;
-            _diceManager.LoadDices(defaultDiceIDs);
-            _scoreManager.score = 0;
-        } 
-        else 
-        {
-            _player.maxHealth = SaveSystem.SaveSystem.LoadPlayerData().maxPlayerHealth;
-            _player.health = SaveSystem.SaveSystem.LoadPlayerData().playerHealth;
-            _diceManager.LoadDices(SaveSystem.SaveSystem.LoadPlayerData().dicesIDs);
-            _scoreManager.score = SaveSystem.SaveSystem.LoadPlayerData().score;
-        }
-        if (SaveSystem.SaveSystem.LoadLevelData() != null)
-        {
-            _gameManager.currentLevelNumber = SaveSystem.SaveSystem.LoadLevelData().currentLevel;
-            var cLevel = _gameManager.currentLevelNumber;
-            _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 4 + 2) * 5;
-            GenerateLevel(cLevel);
-        }
+            Time.timeScale = 1;
+            transitionAnimator.SetBool("Up",true);
+            _player = Player.Player.instancePlayer;
+            _diceManager = DiceManager.instanceDm;
+            _enemiesSpawner = EnemiesSpawner.instanceES;
+            _gameManager = GameManager.instanceGm;
+            _scoreManager = ScoreManager.instanceSm;
+            
+            //Loading data...
+            
+            if (SaveSystem.SaveSystem.LoadPlayerData() == null)
+            {
+                _player.maxHealth = _player.defaultMaxHealth;
+                _player.health = _player.maxHealth;
+                _diceManager.LoadDices(defaultDiceIDs);
+                _scoreManager.score = 0;
+            } 
+            else 
+            {
+                _player.maxHealth = SaveSystem.SaveSystem.LoadPlayerData().maxPlayerHealth;
+                _player.health = SaveSystem.SaveSystem.LoadPlayerData().playerHealth;
+                _diceManager.LoadDices(SaveSystem.SaveSystem.LoadPlayerData().dicesIDs);
+                _scoreManager.score = SaveSystem.SaveSystem.LoadPlayerData().score;
+            }
+            if (SaveSystem.SaveSystem.LoadLevelData() != null)
+            {
+                _gameManager.currentLevelNumber = SaveSystem.SaveSystem.LoadLevelData().currentLevel;
+                var cLevel = _gameManager.currentLevelNumber;
+                _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 4 + 2) * 5;
+                GenerateLevel(cLevel);
+            }
+            
+            if (SaveSystem.SaveSystem.LoadDiceData() == null)
+            {
+                foreach (var dice in _diceManager.dicesPool)
+                {
+                    dice.isOpened = false;
+                }
 
-        if (SaveSystem.SaveSystem.LoadDiceData() == null)
-        {
-            foreach (var dice in _diceManager.dicesPool)
-            {
-                dice.isOpened = false;
+                foreach (var elem in startDiceIDs)
+                {
+                    _diceManager.OpenDice(elem);
+                }
             }
-
-            foreach (var elem in startDiceIDs)
+            else
             {
-                _diceManager.OpenDice(elem);
+                int dicePoolLenght = _diceManager.dicesPool.Count;
+                if (SaveSystem.SaveSystem.LoadDiceData().diceInfo.Length < dicePoolLenght) --dicePoolLenght;
+                for (int i = 0; i < dicePoolLenght; i++)
+                {
+                    _diceManager.dicesPool[i].isOpened = SaveSystem.SaveSystem.LoadDiceData().diceInfo[i];
+                }
             }
-        }
-        else
-        {
-            int dicePoolLenght = _diceManager.dicesPool.Count;
-            if (SaveSystem.SaveSystem.LoadDiceData().diceInfo.Length < dicePoolLenght) --dicePoolLenght;
-            for (int i = 0; i < dicePoolLenght; i++)
-            {
-                _diceManager.dicesPool[i].isOpened = SaveSystem.SaveSystem.LoadDiceData().diceInfo[i];
-            }
-        }
     }
-     
     private void GenerateLevel(int cLevel)
     {
         int enemiesMaxId = 0;

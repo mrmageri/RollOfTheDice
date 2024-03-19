@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 23
   diceName: Uranium Nugget
-  description: It's radioactive
+  description: OoOo... It glows!
   isOpened: 1
   diceRarity: 1
   onPlayerHealthEffect: -5

@@ -3947,23 +3947,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1675599286472795137, guid: 2507bc4315875d14794ff0b8b343362f, type: 3}
       propertyPath: _onDisable.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1675599286472795137, guid: 2507bc4315875d14794ff0b8b343362f, type: 3}
       propertyPath: _onDisable.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 1819898267}
+      objectReference: {fileID: 2133719289}
     - target: {fileID: 1675599286472795137, guid: 2507bc4315875d14794ff0b8b343362f, type: 3}
       propertyPath: _onDisable.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1675599286472795137, guid: 2507bc4315875d14794ff0b8b343362f, type: 3}
       propertyPath: _onDisable.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: SetTrigger
+      value: SetOnAnim
       objectReference: {fileID: 0}
     - target: {fileID: 1675599286472795137, guid: 2507bc4315875d14794ff0b8b343362f, type: 3}
       propertyPath: _onDisable.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: UnityEngine.Animator, UnityEngine
+      value: ScoreManager, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 1675599286472795137, guid: 2507bc4315875d14794ff0b8b343362f, type: 3}
       propertyPath: _onDisable.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
@@ -14615,18 +14615,6 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 130354642}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 1330527117}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   diceName: Dice
-  description: Ordinary D6
+  description: Ordinary D6.
   isOpened: 1
   diceRarity: 5
   onPlayerHealthEffect: 0

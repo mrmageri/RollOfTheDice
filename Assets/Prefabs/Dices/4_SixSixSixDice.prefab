@@ -139,10 +139,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 4
   diceName: 666
-  description: The deal.
+  description: The deal!
   isOpened: 1
   diceRarity: 4
-  onPlayerHealthEffect: 0
+  onPlayerHealthEffect: 5
   diceReloadingType: 3
   reloadingPoints: 0
   maxReloadingPoints: 1

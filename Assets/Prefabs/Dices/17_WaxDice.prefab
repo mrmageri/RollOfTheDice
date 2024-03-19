@@ -64,7 +64,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 17
   diceName: Clot of Wax
-  description: Very hot!
+  description: x2
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0

@@ -65,7 +65,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 6
   diceName: Dorblu
-  description: It stinks.
+  description: Ew, it stinks!
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0

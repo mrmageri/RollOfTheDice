@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 7
   diceName: Ice
-  description: Very slippery.
+  description: Freeze!
   isOpened: 1
   diceRarity: 4
   onPlayerHealthEffect: 0

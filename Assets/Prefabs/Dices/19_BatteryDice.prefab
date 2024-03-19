@@ -139,7 +139,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 19
   diceName: Battery
-  description: 9V
+  description: Electroshock.
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0
