@@ -14,13 +14,15 @@ public class ScoreManager : MonoBehaviour
     
     [SerializeField] private GameObject scoreObj;
     [SerializeField] private TMP_Text scoreText;
+    [SerializeField] private TMP_Text levelText;
     [SerializeField] private Animator _animator;
     private bool _scoreIsActive = true;
     
 
     private void Start()
     {
-        UpdateText();
+        UpdateScore();
+        UpdateLevelInfo();
     }
 
     private void Update()
@@ -35,17 +37,22 @@ public class ScoreManager : MonoBehaviour
     public void AddScore(int s)
     {
         score += (ulong) s;
-        UpdateText();
+        UpdateScore();
     }
     
     public void RemoveScore(int s)
     {
         score -= (ulong) s;
-        UpdateText();
+        UpdateScore();
     }
 
-    private void UpdateText()
+    private void UpdateScore()
     {
         scoreText.text = "score: " + score;
+    }
+
+    private void UpdateLevelInfo()
+    {
+        levelText.text = "Level: " + GameManager.instanceGm.currentLevelNumber;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 namespace Levels
@@ -6,7 +7,8 @@ namespace Levels
     public class SceneLoader: MonoBehaviour
     {
         private MainMenuManager _mainMenuManager;
-        
+        [SerializeField] private UnityEvent _onDisable;
+
         private void Awake()
         {
             _mainMenuManager = MainMenuManager.instanceMMM;
@@ -15,6 +17,7 @@ namespace Levels
         public void Disable()
         {
             gameObject.SetActive(false);
+            _onDisable.Invoke();
         }
 
         public void LoadFightingScene()
