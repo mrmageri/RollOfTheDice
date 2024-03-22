@@ -46,7 +46,10 @@ using Random = UnityEngine.Random;
             public static EnemiesSpawner instanceES;
 
             private GameManager _gameManager;
-        
+
+            private int _lastEnemyId = -1;
+            private int _lastSpawnPoint = -1;
+
             EnemiesSpawner()
             {
                 instanceES = this;
@@ -75,13 +78,21 @@ using Random = UnityEngine.Random;
                 if (currentTurn % spawnInterval == 0)
                 {
                     int newEnemiesAmount = Random.Range(1, 4);
-                    //_spawnedEnemy = false;
                     if (newEnemiesAmount > comingEnemies.Count) newEnemiesAmount = comingEnemies.Count;
                     for (int i = 0; i < newEnemiesAmount; ++i)
                     {
-                        int spawnCellNumber = Random.Range(0, spawnPoint.Length);
-                    
                         int enemyPrefabNumber = Random.Range(0, comingEnemies.Count);
+
+                        int spawnCellNumber = Random.Range(0, spawnPoint.Length);
+                        if (_lastEnemyId == enemyPrefabNumber)
+                        {
+                            while (spawnCellNumber == _lastSpawnPoint)
+                            {
+                                spawnCellNumber = Random.Range(0, spawnPoint.Length);
+                            }
+                        }
+                        _lastEnemyId = enemyPrefabNumber;
+                        _lastSpawnPoint = spawnCellNumber;
 
                         Enemy enemy = Instantiate(comingEnemies[enemyPrefabNumber],
                             spawnPoint[spawnCellNumber].position, Quaternion.identity);
@@ -90,7 +101,6 @@ using Random = UnityEngine.Random;
                         enemy.targetTransform = targetPoint[spawnCellNumber].transform;
                     
                         comingEnemies.Remove(comingEnemies[enemyPrefabNumber]);
-                        //_spawnedEnemy = true;
                     }
                 }
             }
