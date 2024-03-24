@@ -21,7 +21,7 @@ namespace Enemies.EnemiesVariants
         }
         
 
-        protected new void EventOnDeath()
+        protected new void EventOnDeathExtra()
         {
             int rand = Random.Range(1, 4);
             for (int i = 0; i < rand; i++)

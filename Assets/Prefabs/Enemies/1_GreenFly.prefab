@@ -261,6 +261,7 @@ MonoBehaviour:
   waterEffect: {fileID: 7174695192168331818}
   doubleDamageEffect: {fileID: 7237102577495683271}
   electroEffect: {fileID: 2691928182061424148}
+  bloodParticle: {fileID: 9213806933937868052, guid: 288b7179d1806604380520b23e259000, type: 3}
   poisonImmune: 0
   enemyHighlight: {fileID: 6793987842517660898}
   enemyPrefab: {fileID: 4031120927311452401}

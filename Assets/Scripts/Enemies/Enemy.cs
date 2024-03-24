@@ -45,6 +45,9 @@ namespace Enemies
         public GameObject doubleDamageEffect;
         public GameObject electroEffect;
 
+        [Header("Particle")] [SerializeField] 
+        private GameObject bloodParticle;
+
         [Header("Effect Immune")]
         public bool poisonImmune;
 
@@ -84,6 +87,7 @@ namespace Enemies
             {
                 _diceManager.UpdateOnKillReloadingPoints();
                 EventOnDeath();
+                EventOnDeathExtra();
                 _enemiesSpawner.RemoveEnemy(this);
                 Destroy(gameObject);
             }
@@ -236,10 +240,15 @@ namespace Enemies
             }
             if(!animator.GetBool("isFighting")) animator.SetBool("isFighting", true);*/
 
-
-        protected void EventOnDeath()
+        
+        private void EventOnDeath()
         {
             ScoreManager.instanceSm.AddScore(enemyCost);
+            Instantiate(bloodParticle, transform.position, Quaternion.identity);
+        }
+        protected void EventOnDeathExtra()
+        {
+            //is realised in child code
         }
     }
 }

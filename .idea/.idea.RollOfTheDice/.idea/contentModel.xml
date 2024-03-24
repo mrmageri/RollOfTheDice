@@ -18,6 +18,7 @@
         <e p="Renderer" t="Include" />
         <e p="Resources" t="Include">
           <e p="Animation" t="Include">
+            <e p="BloodEffect" t="Include" />
             <e p="Button" t="Include" />
             <e p="Score" t="Include" />
           </e>
