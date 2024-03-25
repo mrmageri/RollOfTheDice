@@ -74,34 +74,39 @@ using Random = UnityEngine.Random;
             public void SpawningEnemies(int currentTurn)
             {
                 if (currentTurn < spawnStart) return;
-                if(comingEnemies.Count <= 0) return;
-                if (currentTurn % spawnInterval == 0)
+                if (comingEnemies.Count <= 0) return;
+                if (currentTurn % spawnInterval != 0) return;
+                
+                int preLastEnemyId = -1;
+                int preLastSpawnPoint = -1;
+                int newEnemiesAmount = Random.Range(1, 4);
+                if (newEnemiesAmount > comingEnemies.Count) newEnemiesAmount = comingEnemies.Count;
+                for (int i = 0; i < newEnemiesAmount; ++i)
                 {
-                    int newEnemiesAmount = Random.Range(1, 4);
-                    if (newEnemiesAmount > comingEnemies.Count) newEnemiesAmount = comingEnemies.Count;
-                    for (int i = 0; i < newEnemiesAmount; ++i)
+                    int enemyPrefabNumber = Random.Range(0, comingEnemies.Count);
+                    int spawnCellNumber = Random.Range(0, spawnPoint.Length);
+                    if (_lastEnemyId == enemyPrefabNumber || (preLastEnemyId == enemyPrefabNumber && i == 3))
                     {
-                        int enemyPrefabNumber = Random.Range(0, comingEnemies.Count);
-
-                        int spawnCellNumber = Random.Range(0, spawnPoint.Length);
-                        if (_lastEnemyId == enemyPrefabNumber)
+                        while (_lastSpawnPoint == spawnCellNumber || preLastSpawnPoint == spawnCellNumber)
                         {
-                            while (spawnCellNumber == _lastSpawnPoint)
-                            {
-                                spawnCellNumber = Random.Range(0, spawnPoint.Length);
-                            }
+                            spawnCellNumber = Random.Range(0, spawnPoint.Length);
                         }
-                        _lastEnemyId = enemyPrefabNumber;
-                        _lastSpawnPoint = spawnCellNumber;
-
-                        Enemy enemy = Instantiate(comingEnemies[enemyPrefabNumber],
-                            spawnPoint[spawnCellNumber].position, Quaternion.identity);
-                        
-                        enemiesOnScene.Add(enemy);
-                        enemy.targetTransform = targetPoint[spawnCellNumber].transform;
-                    
-                        comingEnemies.Remove(comingEnemies[enemyPrefabNumber]);
                     }
+                    if (newEnemiesAmount >= 3 && i == 0)
+                    {
+                        preLastEnemyId = enemyPrefabNumber;
+                        preLastSpawnPoint = spawnCellNumber;
+                    }
+                    _lastEnemyId = enemyPrefabNumber;
+                    _lastSpawnPoint = spawnCellNumber;
+
+                    Enemy enemy = Instantiate(comingEnemies[enemyPrefabNumber],
+                        spawnPoint[spawnCellNumber].position, Quaternion.identity);
+                        
+                    enemiesOnScene.Add(enemy);
+                    enemy.targetTransform = targetPoint[spawnCellNumber].transform;
+                    
+                    comingEnemies.Remove(comingEnemies[enemyPrefabNumber]);
                 }
             }
 

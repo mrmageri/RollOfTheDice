@@ -18,7 +18,7 @@ public class GameManager : MonoBehaviour
     }
 
     [Header("LevelInfo")] 
-    [SerializeField] private int maxLevelNUmber = 20;
+    [SerializeField] private int maxLevelNUmber = 21;
     
     [SerializeField] private UnityEvent onGettingNewDice;
     [SerializeField] private UnityEvent onDeath;
