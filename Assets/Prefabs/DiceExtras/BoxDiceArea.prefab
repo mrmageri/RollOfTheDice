@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6420255015329216841}
   - component: {fileID: -2131183322031462472}
   - component: {fileID: 6246729464441331726}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BoxDiceArea
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
@@ -112,7 +112,7 @@ GameObject:
   - component: {fileID: 9067509931316145641}
   - component: {fileID: 8751501747539528584}
   - component: {fileID: 2230841130741940130}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Particle System (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5001,7 +5001,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3242257403768126237}
   - component: {fileID: 174560592640497558}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BoxDice
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5088,7 +5088,7 @@ GameObject:
   - component: {fileID: 1587348104356713984}
   - component: {fileID: 7222553990733066943}
   - component: {fileID: 5888099704424711452}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Particle System (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9978,7 +9978,7 @@ GameObject:
   - component: {fileID: 3591096217016419439}
   - component: {fileID: 4739278409322924082}
   - component: {fileID: 9159825591669997416}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Particle System (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}

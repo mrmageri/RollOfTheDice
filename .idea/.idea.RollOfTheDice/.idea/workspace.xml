@@ -20,24 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/0_SimpleFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/0_SimpleFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/10_FakeFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/10_FakeFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/1_GreenFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/1_GreenFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/2_BabyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/2_BabyFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/3_TiredFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/3_TiredFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/4_PoopFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/4_PoopFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/5_PoopTinyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/5_PoopTinyFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/6_PoopHeadFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/6_PoopHeadFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/7_BombFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/7_BombFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/8_ElectroFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/8_ElectroFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/9_GasMaskFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/9_GasMaskFly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodParticle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/BloodParticle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BatteryDiceArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BatteryDiceArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BoxDiceArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/BoxDiceArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/DorbluDiceArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/DorbluDiceArea.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/PrismArea.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceExtras/PrismArea.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BabyFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BabyFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BombFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BombFly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopFly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopHeadFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopHeadFly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,46 +58,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LoadScene.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelMenuPlayer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BombFlyExplosion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/UraniumDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/CutletDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceScr.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DiceEffect.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/Dice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScaleToFitScreen.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/OldBatteryDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DiceArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/BombFlyExplosion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyAreas/ElectroArea.cs" />
-        <option value="$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@16.0.4/Runtime/UniversalRenderPipeline.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/GameData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelGenerator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelScrObject.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/LevelData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/FightingMenuLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelButtonLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BabyFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopHeadFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/TurnManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/PlayerData.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
@@ -110,9 +66,49 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BombFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BombFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopHeadFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BabyFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DiceArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/PrismArea.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BatteryDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DiceEffect.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/CerealDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/CutletDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DiceShoes.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DorbluDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/EmberDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/GlassDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/HoneyDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/IceDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/IVDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/OldBatteryDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/PrismDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/PunchDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/SixSixSixDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/UraniumDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/UsualDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/WaterDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/WaxDice.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/DoubleDamageStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/ElectroStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/EnemyStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/FireStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/FreezedStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PoisonStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PunchStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/StickyStatus.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/WaterStatus.cs" />
       </list>
     </option>
   </component>
@@ -338,6 +334,7 @@
       <workItem from="1711122913057" duration="826000" />
       <workItem from="1711125150303" duration="608000" />
       <workItem from="1711306525518" duration="978000" />
+      <workItem from="1711391778633" duration="2860000" />
     </task>
     <servers />
   </component>

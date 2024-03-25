@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 904138654580705488}
   - component: {fileID: 904138654580705503}
   - component: {fileID: 7985044341751151025}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: BatteryDiceArea
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -157,6 +157,10 @@ PrefabInstance:
     - target: {fileID: 1788850238734753717, guid: 6e8564473013502479992471d5ca63ad, type: 3}
       propertyPath: m_Name
       value: Explosion
+      objectReference: {fileID: 0}
+    - target: {fileID: 1788850238734753717, guid: 6e8564473013502479992471d5ca63ad, type: 3}
+      propertyPath: m_Layer
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

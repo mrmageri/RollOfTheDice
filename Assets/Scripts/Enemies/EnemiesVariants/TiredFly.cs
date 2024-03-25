@@ -28,6 +28,9 @@ namespace Enemies.EnemiesVariants
             }
             if(!animator.GetBool("isFighting")) animator.SetBool("isFighting", true);
         }
-
+        protected override void EventOnDeathExtra()
+        {
+            
+        }
     }
 }

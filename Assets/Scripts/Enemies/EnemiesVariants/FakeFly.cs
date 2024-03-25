@@ -30,5 +30,10 @@ namespace Enemies.EnemiesVariants
             _enemiesSpawner.RemoveEnemy(this);
             Destroy(gameObject);
         }
+        
+        protected override void EventOnDeathExtra()
+        {
+            
+        }
     }
 }

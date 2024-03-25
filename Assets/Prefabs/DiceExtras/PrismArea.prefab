@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2636668403490049920}
   - component: {fileID: 2628525514697444315}
   - component: {fileID: 1119680394807342532}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PrismArea
   m_TagString: Untagged
   m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
@@ -105,7 +105,7 @@ GameObject:
   - component: {fileID: 3901262854591028940}
   - component: {fileID: 5770923809546991268}
   - component: {fileID: 2006887741037161741}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DiceTrail
   m_TagString: Untagged
   m_Icon: {fileID: 0}

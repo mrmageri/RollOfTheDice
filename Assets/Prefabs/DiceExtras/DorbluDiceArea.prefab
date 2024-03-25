@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5931328732232425202}
   - component: {fileID: 8909597918069939232}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: PoisonArea
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,7 +97,7 @@ GameObject:
   - component: {fileID: 8359025618433542118}
   - component: {fileID: 7589575502327142720}
   - component: {fileID: 4109461423515549077}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4930,7 +4930,7 @@ GameObject:
   - component: {fileID: 370994731502052001}
   - component: {fileID: 1523359854868471448}
   - component: {fileID: 3906205358158115139}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: DorbluDiceArea
   m_TagString: Untagged
   m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}

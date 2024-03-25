@@ -246,9 +246,7 @@ namespace Enemies
             ScoreManager.instanceSm.AddScore(enemyCost);
             Instantiate(bloodParticle, transform.position, Quaternion.identity);
         }
-        protected void EventOnDeathExtra()
-        {
-            //is realised in child code
-        }
+
+        protected abstract void EventOnDeathExtra();
     }
 }
