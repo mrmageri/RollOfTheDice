@@ -11,8 +11,10 @@
           <e p="DiceExtras" t="Include" />
           <e p="Dices" t="Include" />
           <e p="Enemies" t="Include">
-            <e p="BombFly" t="Include" />
+            <e p="BombFlyEffects" t="Include" />
+            <e p="Bosses" t="Include" />
             <e p="Effects" t="Include" />
+            <e p="Ordinary" t="Include" />
           </e>
         </e>
         <e p="Renderer" t="Include" />
@@ -55,15 +57,21 @@
               <e p="WaxDice" t="Include" />
             </e>
             <e p="Enemies" t="Include">
-              <e p="BabyFly" t="Include" />
-              <e p="BombFly" t="Include" />
-              <e p="ElectroFly" t="Include" />
-              <e p="FakeFly" t="Include" />
-              <e p="GasMaskFly" t="Include" />
-              <e p="PoopFly" t="Include" />
-              <e p="PoopHeadFly" t="Include" />
-              <e p="PoopTinyFly" t="Include" />
-              <e p="SimpleFly" t="Include" />
+              <e p="Bosses" t="Include">
+                <e p="ChainsawFly" t="Include" />
+              </e>
+              <e p="Ordinary" t="Include">
+                <e p="BabyFly" t="Include" />
+                <e p="BombFly" t="Include" />
+                <e p="ElectroFly" t="Include" />
+                <e p="FakeFly" t="Include" />
+                <e p="GasMaskFly" t="Include" />
+                <e p="PoopFly" t="Include" />
+                <e p="PoopHeadFly" t="Include" />
+                <e p="PoopTinyFly" t="Include" />
+                <e p="SimpleFly" t="Include" />
+                <e p="TiredFly" t="Include" />
+              </e>
               <e p="Statuses" t="Include">
                 <e p="DoubleDamageEffect" t="Include" />
                 <e p="ElectroEffect" t="Include" />
@@ -73,7 +81,6 @@
                 <e p="StickyEffect" t="Include" />
                 <e p="StunnedEffect" t="Include" />
               </e>
-              <e p="TiredFly" t="Include" />
             </e>
             <e p="PlayerDice" t="Include" />
             <e p="PlayerTrash" t="Include" />
@@ -133,6 +140,9 @@
             <e p="DiceResultShower.cs" t="Include" />
           </e>
           <e p="Enemies" t="Include">
+            <e p="BossesVariants" t="Include">
+              <e p="ChainsawFly.cs" t="Include" />
+            </e>
             <e p="EnemiesSpawner.cs" t="Include" />
             <e p="EnemiesVariants" t="Include">
               <e p="BabyFly.cs" t="Include" />

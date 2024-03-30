@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
@@ -20,13 +21,20 @@ using Random = UnityEngine.Random;
             GasMaskFly = 9,
             FakeFly = 10
         }
+
+        public enum BossesID
+        {
+            ChainsawFly = 0
+        }
         public class EnemiesSpawner : MonoBehaviour
         {
             public List<Enemy> enemiesPool;
+            public List<Enemy> bossesPool;
         
             public List<Enemy> enemiesAvailable;
         
             public List<Enemy> comingEnemies;
+            public Enemy comingBoss = null;
 
             public List<Enemy> enemiesOnScene;
         
@@ -71,11 +79,26 @@ using Random = UnityEngine.Random;
                 GenerateLevelEnemiesList();
             }
 
+            public void AddBoss(int maxId, int minId = 0)
+            {
+                comingBoss = bossesPool[Random.Range(minId, maxId)];
+            }
+
             public void SpawningEnemies(int currentTurn)
             {
                 if (currentTurn < spawnStart) return;
                 if (comingEnemies.Count <= 0) return;
                 if (currentTurn % spawnInterval != 0) return;
+
+                if (comingBoss)
+                {
+                    int spawnCellNumber = Random.Range(0, spawnPoint.Length);
+                    Enemy enemy = Instantiate(comingBoss,
+                        spawnPoint[spawnCellNumber].position, Quaternion.identity);
+                    enemy.targetTransform = targetPoint[spawnCellNumber].transform;
+                    comingBoss = null;
+                    enemiesOnScene.Add(enemy);
+                }
                 
                 int preLastEnemyId = -1;
                 int preLastSpawnPoint = -1;
@@ -176,7 +199,7 @@ using Random = UnityEngine.Random;
                 { 
                     foreach (var enemy in enemiesOnScene) 
                     {
-                        enemy.isClickable = isClickable; 
+                        if(!enemy.isBoss) enemy.isClickable = isClickable; 
                     }
                 }
         

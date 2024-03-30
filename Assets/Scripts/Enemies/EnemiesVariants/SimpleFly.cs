@@ -23,5 +23,9 @@ namespace Enemies
         {
             
         }
+        protected override void onHitEffect()
+        {
+        
+        }
     }
 }

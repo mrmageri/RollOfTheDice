@@ -30,5 +30,9 @@ namespace Enemies.EnemiesVariants
                 _enemiesSpawner.SpawnEnemy(transform, EnemiesID.PoopTinyFly.GetHashCode(), randSpawnPoint);
             }
         }
+        protected override void onHitEffect()
+        {
+        
+        }
     }
 }

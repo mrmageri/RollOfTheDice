@@ -32,5 +32,9 @@ namespace Enemies.EnemiesVariants
             Instantiate(explosion, transform.position, Quaternion.identity);
             Instantiate(explosionParticle, transform.position, Quaternion.identity);
         }
+        protected override void onHitEffect()
+        {
+        
+        }
     }
 }

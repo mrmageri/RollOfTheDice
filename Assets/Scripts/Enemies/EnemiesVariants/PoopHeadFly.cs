@@ -33,5 +33,9 @@ namespace Enemies.EnemiesVariants
         {
             
         }
+        protected override void onHitEffect()
+        {
+        
+        }
     }
 }

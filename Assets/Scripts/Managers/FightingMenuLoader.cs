@@ -46,8 +46,17 @@ public class FightingMenuLoader : MonoBehaviour
             {
                 _gameManager.currentLevelNumber = SaveSystem.SaveSystem.LoadLevelData().currentLevel;
                 var cLevel = _gameManager.currentLevelNumber;
-                _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 4 + 2) * 5;
-                GenerateLevel(cLevel);
+                if (_gameManager.currentLevelNumber % 5 == 0)
+                {
+                    _enemiesSpawner.AddBoss(_enemiesSpawner.bossesPool.Count);
+                    _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 4 + 2) * 2;
+                    GenerateLevel(cLevel);
+                }
+                else
+                {
+                    _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 4 + 2) * 5;
+                    GenerateLevel(cLevel);
+                }
             }
             
             if (SaveSystem.SaveSystem.LoadDiceData() == null)

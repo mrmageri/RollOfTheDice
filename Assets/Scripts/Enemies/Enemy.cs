@@ -20,6 +20,9 @@ namespace Enemies
         public float speed;
         public Transform targetTransform;
         public bool isMovingBack = false;
+        
+        [Header("BOSS")]
+        public bool isBoss = false;
 
         [Header("Statuses")]
         public readonly FireStatus fireStatus = new FireStatus();
@@ -83,6 +86,7 @@ namespace Enemies
         {
             health -= (damage * damageMultiplier);
             StartCoroutine(ChangingColor());
+            onHitEffect();
             if (health <= 0)
             {
                 _diceManager.UpdateOnKillReloadingPoints();
@@ -246,6 +250,8 @@ namespace Enemies
             ScoreManager.instanceSm.AddScore(enemyCost);
             Instantiate(bloodParticle, transform.position, Quaternion.identity);
         }
+
+        protected abstract void onHitEffect();
 
         protected abstract void EventOnDeathExtra();
     }
