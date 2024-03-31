@@ -14786,7 +14786,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d93ea0b27f2cdc6468558b7cdb1b7a55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentLevelNumber: 0
+  currentLevelNumber: 1
   fightEnded: 0
   maxLevelNUmber: 20
   onGettingNewDice:
@@ -14861,11 +14861,11 @@ MonoBehaviour:
   - {fileID: 6689408938239792147, guid: 9f31981986363bb479ad0001bb93121d, type: 3}
   bossImage: {fileID: 971301702}
   bossName: {fileID: 2137698158}
+  bossLayout: {fileID: 2145509353}
   scoreObj: {fileID: 1819898265}
   scoreText: {fileID: 675180579}
   levelText: {fileID: 1271311481}
   _animator: {fileID: 1819898267}
-  bossLayout: {fileID: 2145509353}
 --- !u!1 &2137698156
 GameObject:
   m_ObjectHideFlags: 0

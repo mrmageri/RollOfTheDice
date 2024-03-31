@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instanceGm;
-    public int currentLevelNumber = 0;
+    public int currentLevelNumber = 1;
     public bool fightEnded = false;
     
         

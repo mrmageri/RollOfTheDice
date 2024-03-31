@@ -94,7 +94,7 @@ using Random = UnityEngine.Random;
             public void SpawningEnemies(int currentTurn)
             {
                 if (currentTurn < spawnStart) return;
-                if (comingEnemies.Count <= 0) return;
+                if (comingEnemies.Count <= 0 && bossIsComing == false) return;
                 if (currentTurn % spawnInterval != 0) return;
                 if (enemiesOnScene.Count > maxEnemiesOnScene) return;
 

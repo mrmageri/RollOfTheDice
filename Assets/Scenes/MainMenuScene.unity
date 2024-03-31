@@ -1430,6 +1430,9 @@ MonoBehaviour:
   _onDisable:
     m_PersistentCalls:
       m_Calls: []
+  _onCheck:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!95 &212086426
 Animator:
   serializedVersion: 7
@@ -4237,7 +4240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerCanMove: 0
-  currentLevel: 0
+  currentLevel: 1
   transitionObj: {fileID: 212086423}
   transitionAnimator: {fileID: 212086426}
   onWin:

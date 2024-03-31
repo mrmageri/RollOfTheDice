@@ -12,19 +12,22 @@ public class ScoreManager : MonoBehaviour
         instanceSm = this;
     }
     
+    [Header("Score")]
     public ulong score = 0;
     
-    public Sprite[] bossesSprites;
 
+    [Header("Bosses")]
+    public Sprite[] bossesSprites;
     [SerializeField] private Image bossImage;
     [SerializeField] private TMP_Text bossName;
+    [SerializeField] private GameObject bossLayout;
     
+    [Header("Level and Score data")]
     [SerializeField] private GameObject scoreObj;
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TMP_Text levelText;
     [SerializeField] private Animator _animator;
-    [SerializeField] private GameObject bossLayout;
-    
+
     private bool _scoreIsActive = true;
     
 

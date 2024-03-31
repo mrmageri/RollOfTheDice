@@ -7,7 +7,7 @@ public class MainMenuManager : MonoBehaviour
     public static MainMenuManager instanceMMM;
         
     public bool playerCanMove = false;
-    public int currentLevel = 0;
+    public int currentLevel = 1;
         
     private string fightingStr = "FightingScene";
     public GameObject transitionObj;
@@ -23,7 +23,7 @@ public class MainMenuManager : MonoBehaviour
     private void Awake()
     {
         Time.timeScale = 1;
-        currentLevel = SaveSystem.SaveSystem.LoadLevelData() == null ? 0 : SaveSystem.SaveSystem.LoadLevelData().currentLevel;
+        currentLevel = SaveSystem.SaveSystem.LoadLevelData() == null ? 1 : SaveSystem.SaveSystem.LoadLevelData().currentLevel;
     }
 
     private void Start()
@@ -38,7 +38,7 @@ public class MainMenuManager : MonoBehaviour
     public void ClearGameFiles()
     {
         SaveSystem.SaveSystem.DeleteAllData();
-        currentLevel = 0;
+        currentLevel = 1;
     }
 
 
