@@ -1,6 +1,8 @@
 using System;
+using Enemies;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour
 {
@@ -12,10 +14,17 @@ public class ScoreManager : MonoBehaviour
     
     public ulong score = 0;
     
+    public Sprite[] bossesSprites;
+
+    [SerializeField] private Image bossImage;
+    [SerializeField] private TMP_Text bossName;
+    
     [SerializeField] private GameObject scoreObj;
     [SerializeField] private TMP_Text scoreText;
     [SerializeField] private TMP_Text levelText;
     [SerializeField] private Animator _animator;
+    [SerializeField] private GameObject bossLayout;
+    
     private bool _scoreIsActive = true;
     
 
@@ -44,6 +53,15 @@ public class ScoreManager : MonoBehaviour
     {
         score -= (ulong) s;
         UpdateScore();
+    }
+    public void OnSceneCheck()
+    {
+        if (EnemiesSpawner.instanceES.comingBoss != null)
+        {
+            bossLayout.SetActive(true);
+            bossImage.sprite = bossesSprites[EnemiesSpawner.instanceES.currentBossId];
+            bossName.text = EnemiesSpawner.instanceES.comingBoss.name;
+        }
     }
 
     public void SetOnAnim()

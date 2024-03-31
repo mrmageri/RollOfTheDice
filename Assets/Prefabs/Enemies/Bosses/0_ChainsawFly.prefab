@@ -5501,8 +5501,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb33cc6c4ea55f40a5fc5334fe18194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 20
-  enemyDamage: 1
+  name: Chainsaw-fly
+  health: 15
+  enemyDamage: 2
   enemyCost: 25
   speed: 0.8
   targetTransform: {fileID: 0}
@@ -5564,8 +5565,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.591552
-  m_Center: {x: -0.08918595, y: 0.29249406, z: 0}
+  m_Radius: 0.5915521
+  m_Center: {x: -0.08918595, y: 0.34560227, z: 0}
 --- !u!54 &8958740387597351885
 Rigidbody:
   m_ObjectHideFlags: 0

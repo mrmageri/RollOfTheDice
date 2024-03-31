@@ -35,6 +35,7 @@ using Random = UnityEngine.Random;
         
             public List<Enemy> comingEnemies;
             public Enemy comingBoss = null;
+            public int currentBossId;
 
             public List<Enemy> enemiesOnScene;
         
@@ -46,6 +47,10 @@ using Random = UnityEngine.Random;
             public int spawnInterval; //In turns
 
             public int spawnStart;
+            
+            public bool bossIsComing = false;
+            
+            [HideInInspector] public int maxEnemiesOnScene = 4;
         
             private bool _enemiesAreHighlighted = false;
 
@@ -81,7 +86,9 @@ using Random = UnityEngine.Random;
 
             public void AddBoss(int maxId, int minId = 0)
             {
-                comingBoss = bossesPool[Random.Range(minId, maxId)];
+                int rand = Random.Range(minId, maxId);
+                comingBoss = bossesPool[rand];
+                currentBossId = rand;
             }
 
             public void SpawningEnemies(int currentTurn)
@@ -89,14 +96,16 @@ using Random = UnityEngine.Random;
                 if (currentTurn < spawnStart) return;
                 if (comingEnemies.Count <= 0) return;
                 if (currentTurn % spawnInterval != 0) return;
+                if (enemiesOnScene.Count > maxEnemiesOnScene) return;
 
-                if (comingBoss)
+                if (bossIsComing)
                 {
                     int spawnCellNumber = Random.Range(0, spawnPoint.Length);
                     Enemy enemy = Instantiate(comingBoss,
                         spawnPoint[spawnCellNumber].position, Quaternion.identity);
                     enemy.targetTransform = targetPoint[spawnCellNumber].transform;
                     comingBoss = null;
+                    bossIsComing = false;
                     enemiesOnScene.Add(enemy);
                 }
                 
@@ -178,7 +187,14 @@ using Random = UnityEngine.Random;
                 if(isActive && _enemiesAreHighlighted) return;
                 foreach (var elem in enemiesOnScene)
                 {
-                    elem.enemyHighlight.SetActive(isActive);
+                    if (elem.isBoss)
+                    {
+                        elem.enemyHighlight.SetActive(elem.isClickable && isActive);
+                    }
+                    else
+                    {
+                        elem.enemyHighlight.SetActive(isActive);
+                    }
                 }
                 _enemiesAreHighlighted = isActive;
             }

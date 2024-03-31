@@ -8,6 +8,7 @@ namespace Levels
     {
         private MainMenuManager _mainMenuManager;
         [SerializeField] private UnityEvent _onDisable;
+        [SerializeField] private UnityEvent _onCheck;
 
         private void Awake()
         {
@@ -18,6 +19,11 @@ namespace Levels
         {
             gameObject.SetActive(false);
             _onDisable.Invoke();
+        }
+
+        public void CheckOnStart()
+        {
+            _onCheck.Invoke();
         }
 
         public void LoadFightingScene()

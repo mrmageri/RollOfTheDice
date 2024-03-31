@@ -7,6 +7,9 @@ namespace Enemies
 {
     public abstract class Enemy : MonoBehaviour
     {
+        [Header("Name")] 
+        public string name;
+        
         [Header("Health")] 
         public float health = 5;
     

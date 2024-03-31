@@ -66,34 +66,34 @@ public class GameManager : MonoBehaviour
         fightEnded = true;
         if (currentLevelNumber % 3 == 0)
         {
-            if (currentLevelNumber + 1 < maxLevelNUmber)
-            {
+            //if (currentLevelNumber + 1 < maxLevelNUmber)
+            //{
                 currentLevelNumber++;
                 SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
-            }
-            else
+            //}
+            /*else
             {
                 ToMainMenu();
                 SaveSystem.SaveSystem.DeleteAllData();
                 return;
-            }
+            }*/
             onGettingNewDice.Invoke();
             _diceManager.DeactivateDicesButtons();
             Time.timeScale = 0;
         }
         else
         {
-            if (currentLevelNumber + 1 < maxLevelNUmber)
-            {
+            //if (currentLevelNumber + 1 < maxLevelNUmber)
+            //{
                 currentLevelNumber++;
                 SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
-            }
-            else
+           // }
+            /*else
             {
                 ToMainMenu();
                 SaveSystem.SaveSystem.DeleteAllData();
                 return;
-            }
+            }*/
             SavePlayerData();
             ToFightTransition();
             _diceManager.DeactivateDicesButtons();

@@ -20,10 +20,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles/BloodParticle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles/BloodParticle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles/BossBloodParticle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles/BossBloodParticle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles/PoopParticle.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/OnDeathParticles/PoopParticle.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animation/BossLayout.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animation/BossLayout/BossLayout.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animation/BossLayout/BossLayout.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animation/BossLayout/BossLayout.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Animation/BossLayout/BossLayout.controller.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodParticle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BloodParticle.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BossBloodParticle.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/BossBloodParticle.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Bosses/0_ChainsawFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Bosses/0_ChainsawFly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/4_PoopFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/4_PoopFly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/5_PoopTinyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/5_PoopTinyFly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/0_ChainsawFly.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/0_ChainsawFly.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Walking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Dash.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Dash.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Idle.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_chainsaw.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_chainsaw.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/MenuAnimetions/SceneTransition/MenuSceneTransitionUp.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/MenuAnimetions/SceneTransition/MenuSceneTransitionUp.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraMovement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DiceArea.cs" />
@@ -87,8 +116,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PunchStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/StickyStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/WaterStatus.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BabyFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/BombFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopFly.cs" />
@@ -96,8 +123,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopHeadFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BossesVariants/ChainsawFly.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
       </list>
     </option>
@@ -331,6 +362,9 @@
       <workItem from="1711400552255" duration="1000000" />
       <workItem from="1711817052008" duration="7188000" />
       <workItem from="1711873159756" duration="151000" />
+      <workItem from="1711875884322" duration="697000" />
+      <workItem from="1711878791424" duration="330000" />
+      <workItem from="1711897484161" duration="4639000" />
     </task>
     <servers />
   </component>
