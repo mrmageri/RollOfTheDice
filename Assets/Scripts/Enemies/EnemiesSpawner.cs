@@ -50,7 +50,7 @@ using Random = UnityEngine.Random;
             
             public bool bossIsComing = false;
             
-            [HideInInspector] public int maxEnemiesOnScene = 4;
+            [HideInInspector] public int maxEnemiesOnScene = 5;
         
             private bool _enemiesAreHighlighted = false;
 
@@ -111,7 +111,7 @@ using Random = UnityEngine.Random;
                 
                 int preLastEnemyId = -1;
                 int preLastSpawnPoint = -1;
-                int newEnemiesAmount = Random.Range(1, 4);
+                int newEnemiesAmount = Random.Range(1, 3);
                 if (newEnemiesAmount > comingEnemies.Count) newEnemiesAmount = comingEnemies.Count;
                 for (int i = 0; i < newEnemiesAmount; ++i)
                 {

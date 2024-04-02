@@ -64,7 +64,7 @@ public class GameManager : MonoBehaviour
     public void Winning()
     {
         fightEnded = true;
-        if (currentLevelNumber % 3 == 0)
+        if (currentLevelNumber % 5 == 0 || currentLevelNumber == 1)
         {
             //if (currentLevelNumber + 1 < maxLevelNUmber)
             //{

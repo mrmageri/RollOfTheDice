@@ -68,9 +68,9 @@ MonoBehaviour:
   isOpened: 1
   diceRarity: 3
   onPlayerHealthEffect: 0
-  diceReloadingType: 1
+  diceReloadingType: 0
   reloadingPoints: 0
-  maxReloadingPoints: 8
+  maxReloadingPoints: 2
   isActive: 0
   isReady: 0
   diceEffect: {fileID: 6862169458873527381}

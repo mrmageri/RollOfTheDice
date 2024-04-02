@@ -145,7 +145,7 @@ MonoBehaviour:
   onPlayerHealthEffect: 0
   diceReloadingType: 1
   reloadingPoints: 0
-  maxReloadingPoints: 6
+  maxReloadingPoints: 8
   isActive: 0
   isReady: 0
   diceEffect: {fileID: 8168689912408125335}

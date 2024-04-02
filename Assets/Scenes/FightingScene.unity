@@ -14561,7 +14561,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0bc9abb0ecd0c6c44b5ae6774990c588, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  turnDuration: 1.5
+  turnDuration: 1
   enemiesSpawner: {fileID: 2133719285}
   turnNumber: 0
   highlightIsActive: 0
@@ -14670,7 +14670,7 @@ MonoBehaviour:
   - {fileID: 2112045955}
   - {fileID: 1931730426}
   levelEnemiesPoints: 1
-  spawnInterval: 3
+  spawnInterval: 2
   spawnStart: 1
   bossIsComing: 0
   maxEnemiesOnScene: 6

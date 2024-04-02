@@ -20,15 +20,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/13_AshDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/13_AshDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/14_D12UsualDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/14_D12UsualDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/16_WaterDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/16_WaterDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/18_BoxDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/18_BoxDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/20_PrismDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/20_PrismDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/22_CerealDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/22_CerealDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/5_EmberDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/5_EmberDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/7_IceDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/7_IceDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/9_HoneyDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/9_HoneyDice.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +105,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
       </list>
     </option>
   </component>
@@ -340,6 +346,7 @@
       <workItem from="1711878791424" duration="330000" />
       <workItem from="1711897484161" duration="4639000" />
       <workItem from="1711911938343" duration="1420000" />
+      <workItem from="1712044013373" duration="2284000" />
     </task>
     <servers />
   </component>
