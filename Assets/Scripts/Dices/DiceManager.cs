@@ -350,8 +350,14 @@ namespace Dices
                     break;
                 case OnPlayerHealthEffect.HealthDown:
                     if (_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown) <= 0)
+                    {
                         _player.maxHealth = 1;
-                    _player.SetMaxPlayerHealth(_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown));
+                        _player.SetMaxPlayerHealth(_player.maxHealth);
+                    }
+                    else
+                    {
+                        _player.SetMaxPlayerHealth(_player.maxHealth + Convert.ToInt32(OnPlayerHealthEffect.HealthDown));
+                    }
                     break;
                 case OnPlayerHealthEffect.Glass:
                     _player.SetMaxPlayerHealth(Convert.ToInt32(OnPlayerHealthEffect.Glass));

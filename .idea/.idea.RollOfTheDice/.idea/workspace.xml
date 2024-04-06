@@ -20,21 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/13_AshDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/13_AshDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/14_D12UsualDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/14_D12UsualDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/16_WaterDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/16_WaterDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/18_BoxDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/18_BoxDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/20_PrismDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/20_PrismDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/22_CerealDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/22_CerealDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/5_EmberDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/5_EmberDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/7_IceDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/7_IceDice.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/9_HoneyDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/9_HoneyDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Bosses/0_ChainsawFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Bosses/0_ChainsawFly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/10_FakeFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/10_FakeFly.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/0_ChainsawFly.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/0_ChainsawFly.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Charging.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Charging.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Dash.anim.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Dash.anim.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Enemies/Bosses/ChainsawFly/ChainsawFly_Idle.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/BossesVariants/ChainsawFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/BossesVariants/ChainsawFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +57,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DiceArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player/PlayerDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" />
@@ -101,15 +98,16 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/PoopHeadFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BossesVariants/ChainsawFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BossesVariants/ChainsawFly.cs" />
       </list>
     </option>
   </component>
@@ -347,6 +345,9 @@
       <workItem from="1711897484161" duration="4639000" />
       <workItem from="1711911938343" duration="1420000" />
       <workItem from="1712044013373" duration="2284000" />
+      <workItem from="1712397197365" duration="1744000" />
+      <workItem from="1712399000572" duration="1463000" />
+      <workItem from="1712418055316" duration="3352000" />
     </task>
     <servers />
   </component>
@@ -380,18 +381,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="794" y="236" key="RiderGenerateDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1705827663763" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1709566808801">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1712419435121">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1709566808801" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1712419435121" />
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1709366605139">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1709366605139" />
-    <state x="564" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1703280054169">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="564" y="131" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/-1680.31.1680.1010@0.0.1920.1040" timestamp="1703280054169" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1711828404471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -5502,10 +5502,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Chainsaw-fly
-  health: 15
-  enemyDamage: 2
+  health: 35
+  enemyDamage: 10
   enemyCost: 25
-  speed: 0.8
+  speed: 1.1
   targetTransform: {fileID: 0}
   isMovingBack: 0
   isBoss: 1
@@ -5531,9 +5531,9 @@ MonoBehaviour:
   enemyPrefab: {fileID: 4031120927311452401}
   damageToTake: 0
   isAttackTarget: 0
-  isClickable: 0
+  isClickable: 1
+  isSpecial: 0
   damageMultiplier: 1
-  _distance: 6
 --- !u!210 &6775152206805770680
 SortingGroup:
   m_ObjectHideFlags: 0

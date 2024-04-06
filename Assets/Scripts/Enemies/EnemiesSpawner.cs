@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using NUnit.Framework;
 using UnityEngine;
@@ -55,13 +56,15 @@ using Random = UnityEngine.Random;
             private bool _enemiesAreHighlighted = false;
 
             //private bool _spawnedEnemy = false;
+            [SerializeField] private int maxSpecialEnemies = 3;
+
+            private int _lastEnemyId = -1;
+            private int _lastSpawnPoint = -1;
 
             public static EnemiesSpawner instanceES;
 
             private GameManager _gameManager;
 
-            private int _lastEnemyId = -1;
-            private int _lastSpawnPoint = -1;
 
             EnemiesSpawner()
             {
@@ -155,18 +158,31 @@ using Random = UnityEngine.Random;
             private void GenerateLevelEnemiesList()
             {
                 int min = GetMinimumEnemyCost();
-                while (levelEnemiesPoints > 0 && levelEnemiesPoints - min >= 0)
+                int failCount = 0;
+                while (levelEnemiesPoints > 0 && levelEnemiesPoints - min >= 0 && (maxSpecialEnemies > 0 && failCount < 5))
                 { 
                     int randomEnemyId = Random.Range(0, enemiesAvailable.Count);
                     int randomEnemyCost = enemiesAvailable[randomEnemyId].enemyCost;
 
                     if (levelEnemiesPoints - randomEnemyCost >= 0)
                     {
+                        //this is made to prevent special flies from overfilling coming enemies
+                        if(maxSpecialEnemies <= 0 && enemiesAvailable[randomEnemyId].isSpecial)
+                        {
+                            failCount++;
+                            continue;
+                        }
+                        failCount = 0;
+                        
+
                         comingEnemies.Add(enemiesAvailable[randomEnemyId]);
                         levelEnemiesPoints -= randomEnemyCost;
                     } else if (levelEnemiesPoints <= 0)
                     {
                         break;
+                    }
+                    else
+                    {
                     }
                 }
             }

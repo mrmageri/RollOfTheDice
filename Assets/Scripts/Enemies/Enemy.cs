@@ -62,6 +62,7 @@ namespace Enemies
         [HideInInspector]public int damageToTake;
         public bool isAttackTarget = false;
         public bool isClickable = false;
+        public bool isSpecial = false;
 
         [HideInInspector] public int damageMultiplier = 1;
 

@@ -90,6 +90,7 @@
               <e p="Buttons" t="Include" />
               <e p="Dice" t="Include" />
               <e p="Fonts" t="Include" />
+              <e p="Icons" t="Include" />
               <e p="MenuAnimetions" t="Include">
                 <e p="SceneTransition" t="Include" />
               </e>

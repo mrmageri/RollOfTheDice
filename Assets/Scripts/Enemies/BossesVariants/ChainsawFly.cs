@@ -4,12 +4,11 @@ using UnityEngine;
 public class ChainsawFly : Enemy
 {
     private Vector3 _target;
-    [SerializeField] private float _distance = 4f;
+    private float _distance = 5f;
     private int _maxActions = 5;
     private int actionNum = 0;
     private void Start()
     {
-        SetUnclickable();
         var position = targetTransform.position;
         position = new Vector3(position.x + _distance,position.y, position.z);
         _target = position;
@@ -45,16 +44,6 @@ public class ChainsawFly : Enemy
     protected override void onHitEffect()
     {
         animator.SetInteger("attack", 0);
-    }
-
-    public void SetClickable()
-    {
-        isClickable = true;
-    }
-    
-    public void SetUnclickable()
-    {
-        isClickable = false;
     }
 
     public void SetAnimatorZero()
