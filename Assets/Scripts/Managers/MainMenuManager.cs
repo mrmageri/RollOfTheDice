@@ -9,7 +9,7 @@ public class MainMenuManager : MonoBehaviour
     public bool playerCanMove = false;
     public int currentLevel = 1;
         
-    private string fightingStr = "FightingScene";
+    private string _fightingStr = "FightingScene";
     public GameObject transitionObj;
     [SerializeField] private Animator transitionAnimator;
     [SerializeField] private UnityEvent onWin;

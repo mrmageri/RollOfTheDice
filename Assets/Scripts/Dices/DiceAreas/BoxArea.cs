@@ -1,16 +1,15 @@
-﻿using System;
-using Enemies;
+﻿using Enemies;
 using Player;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Dices
+namespace Dices.DiceAreas
 {
     public class BoxArea : DiceArea
     {
         [SerializeField] private Dice[] dices;
         public GameObject throwableDicePrefab;
-        public SphereCollider collider;
+        public new SphereCollider collider;
         protected override void OnEnterEvent(Enemy enemy)
         {
             int rand = Random.Range(0, dices.Length);

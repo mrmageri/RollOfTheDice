@@ -4,18 +4,18 @@ namespace Enemies.EnemyStatuses
 {
     public class WaterStatus : EnemyStatus
     {
-        protected int duration = 6;
-        private int damage = 5;
+        private int _duration = 6;
+        private int _damage = 5;
 
         public override void Effect(Enemy enemy)
         {
             if(!isOnStatus) return;
             if (startTurn == 0)
             {
-                if (enemy.damageToTake == maxDiceRes) damage *= 2;
-                if (maxDiceRes < 6) duration /= 2;
+                if (enemy.damageToTake == maxDiceRes) _damage *= 2;
+                if (maxDiceRes < 6) _duration /= 2;
                 startTurn = TurnManager.instanceTM.turnNumber;
-                endTurn = startTurn + duration;
+                endTurn = startTurn + _duration;
             }
             
             if (TurnManager.instanceTM.turnNumber < endTurn)
@@ -34,14 +34,14 @@ namespace Enemies.EnemyStatuses
                 {
                     enemy.poisonStatus.SetStatus(false,0);
                     enemy.poisonEffect.SetActive(false);
-                    enemy.TakingDamage(damage);
+                    enemy.TakingDamage(_damage);
                     endTurn = TurnManager.instanceTM.turnNumber - 1;
                 }
                 if (enemy.electroStatus.isOnStatus)
                 {
                     enemy.electroStatus.SetStatus(false,0);
                     enemy.electroEffect.SetActive(false);
-                    enemy.TakingDamage(damage);
+                    enemy.TakingDamage(_damage);
                     endTurn = TurnManager.instanceTM.turnNumber - 1;
                 }
             }

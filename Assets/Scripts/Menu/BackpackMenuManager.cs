@@ -41,6 +41,7 @@ namespace Menu
         [SerializeField] private Button addDiceButton;
         [SerializeField] private GameObject trashButton;
         [SerializeField] private GameObject exitButton;
+        [SerializeField] private UnityEvent toMenu;
 
 
         public float transitionTime;

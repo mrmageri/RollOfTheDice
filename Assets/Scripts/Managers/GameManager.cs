@@ -1,6 +1,5 @@
-using System;
+
 using Dices;
-using Levels;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.SceneManagement;
@@ -18,7 +17,7 @@ public class GameManager : MonoBehaviour
     }
 
     [Header("LevelInfo")] 
-    [SerializeField] private int maxLevelNUmber = 21;
+    //[SerializeField] private int maxLevelNUmber = 21;
     
     [SerializeField] private UnityEvent onGettingNewDice;
     [SerializeField] private UnityEvent onDeath;
@@ -32,6 +31,7 @@ public class GameManager : MonoBehaviour
     {
         _diceManager = DiceManager.instanceDm;
         _player = Player.Player.instancePlayer;
+        Application.targetFrameRate = 60;
     }
 
     public void LoadScene(string sceneName)

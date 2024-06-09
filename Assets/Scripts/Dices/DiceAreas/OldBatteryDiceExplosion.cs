@@ -6,7 +6,7 @@ namespace Dices.DiceAreas
     public class OldBatteryDiceExplosion : DiceArea
     {
         public int damage;
-        public SphereCollider collider;
+        public new SphereCollider collider;
         protected override void OnEnterEvent(Enemy enemy)
         {
             enemy.TakingDamage(damage);

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Dices.DiceAreas;
+using UnityEngine;
 using Enemies;
 
 namespace Dices.DiceEffect

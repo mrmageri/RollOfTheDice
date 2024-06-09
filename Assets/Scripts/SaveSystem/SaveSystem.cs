@@ -33,7 +33,7 @@ namespace SaveSystem
             }
             else
             {
-                Debug.Log("No data found!");
+                //Debug.Log("No data found!");
                 return null;
             }
         }
@@ -78,7 +78,7 @@ namespace SaveSystem
             }
             else
             {
-                Debug.Log("No level data found!");
+                //Debug.Log("No level data found!");
                 return null;
             }
         }
@@ -110,7 +110,7 @@ namespace SaveSystem
             }
             else
             {
-                Debug.Log("No dices data found!");
+                //Debug.Log("No dices data found!");
                 return null;
             }
         }

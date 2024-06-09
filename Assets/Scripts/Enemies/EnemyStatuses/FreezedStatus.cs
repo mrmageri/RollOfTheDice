@@ -1,10 +1,9 @@
-﻿using UnityEngine;
-
+﻿
 namespace Enemies.EnemyStatuses
 {
     public class FreezedStatus : EnemyStatus
     {
-        protected int duration = 4;
+        private int _duration = 4;
         private float _enemyStartSpeed = 0;
         
         public override void Effect(Enemy enemy)
@@ -13,16 +12,16 @@ namespace Enemies.EnemyStatuses
             if(!isOnStatus) return;
             if (startTurn == 0)
             {
-                if (maxDiceRes < 6) duration /= 2;
+                if (maxDiceRes < 6) _duration /= 2;
                 _enemyStartSpeed = enemy.speed;
                 startTurn = TurnManager.instanceTM.turnNumber;
                 if (enemy.damageToTake == maxDiceRes)
                 {
-                    endTurn = startTurn + duration + duration / 2;
+                    endTurn = startTurn + _duration + _duration / 2;
                 }
                 else
                 {
-                    endTurn = startTurn + duration;
+                    endTurn = startTurn + _duration;
                 }
 
                 enemy.animator.speed = 0;

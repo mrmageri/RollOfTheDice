@@ -4,17 +4,17 @@ namespace Enemies.EnemyStatuses
 {
     public class PunchStatus : EnemyStatus
     {
-        protected int duration = 1;
+        private int _duration = 1;
         private float _enemyStartSpeed = 0;
         public override void Effect(Enemy enemy)
         {
             if(!isOnStatus) return;
             if (startTurn == 0)
             {
-                if (maxDiceRes < 6) duration /= 2;
+                if (maxDiceRes < 6) _duration /= 2;
                 _enemyStartSpeed = enemy.speed;
                 startTurn = TurnManager.instanceTM.turnNumber;
-                endTurn = startTurn + duration;
+                endTurn = startTurn + _duration;
                 if (enemy.damageToTake == maxDiceRes)
                 {                
                     enemy.speed = -enemy.speed * 8;

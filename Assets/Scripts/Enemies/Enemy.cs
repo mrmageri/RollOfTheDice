@@ -1,19 +1,23 @@
 using System.Collections;
+using System.Globalization;
 using Dices;
 using Enemies.EnemyStatuses;
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Enemies
 {
     public abstract class Enemy : MonoBehaviour
     {
         [Header("Name")] 
-        public string name;
-        
+        public string enemyName;
+
         [Header("Health")] 
-        public float health = 5;
+        public float maxHealth = 5;
+        [HideInInspector]public float health = 5;
     
-        [Header("Damage")] 
+        [Header("Damage")]
         public int enemyDamage = 1;
         
         [Header("Cost")] 
@@ -50,6 +54,10 @@ namespace Enemies
         public GameObject waterEffect;
         public GameObject doubleDamageEffect;
         public GameObject electroEffect;
+        
+        [Header("Health Bar Render")]
+        [SerializeField] private Image mainBar;
+        [SerializeField] private TMP_Text hpText;
 
         [Header("Particle")] [SerializeField] 
         private GameObject bloodParticle;
@@ -77,6 +85,8 @@ namespace Enemies
             _player = Player.Player.instancePlayer;
             _enemiesSpawner = EnemiesSpawner.instanceES;
             _diceManager = DiceManager.instanceDm;
+            hpText.text = health.ToString(CultureInfo.InvariantCulture);
+            health = maxHealth;
         }
 
 
@@ -89,6 +99,8 @@ namespace Enemies
         public void TakingDamage(int damage)
         {
             health -= (damage * damageMultiplier);
+            mainBar.fillAmount = health / maxHealth;
+            hpText.text = health.ToString(CultureInfo.InvariantCulture);
             StartCoroutine(ChangingColor());
             onHitEffect();
             if (health <= 0)
