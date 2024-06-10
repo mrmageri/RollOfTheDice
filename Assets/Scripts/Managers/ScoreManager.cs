@@ -63,7 +63,7 @@ public class ScoreManager : MonoBehaviour
         {
             bossLayout.SetActive(true);
             bossImage.sprite = bossesSprites[EnemiesSpawner.instanceES.currentBossId];
-            bossName.text = EnemiesSpawner.instanceES.comingBoss.name;
+            bossName.text = EnemiesSpawner.instanceES.comingBoss.enemyName;
         }
     }
 

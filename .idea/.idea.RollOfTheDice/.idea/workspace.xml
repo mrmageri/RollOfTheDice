@@ -20,166 +20,60 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42374687-1679-485f-b0a0-1ac2ced66427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/cache-v2-2b45341c097f5fd99474.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-9d9494c2e89f62ef98b0.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-6427e71092ea933b6836.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/directory-FramePacing-RelWithDebInfo-7f9c8865fd027a154c90.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/index-2024-05-28T21-16-00-0168.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.cmake/api/v1/reply/target-swappywrapper-RelWithDebInfo-8b5f487961e56709564d.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/FramePacing/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/armeabi-v7a/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/2v523t3a/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/cache-v2-68da92d75455fc7e26f5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-599ab2e4eb4bfbae4d30.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/codemodel-v2-119143a1965815b2d531.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/directory-FramePacing-RelWithDebInfo-7f9c8865fd027a154c90.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/index-2024-05-30T20-30-36-0981.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/target-swappywrapper-RelWithDebInfo-aa0b27491615616e6eba.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/FramePacing/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/query/client-agp/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/query/client-agp/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/query/client-agp/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/cache-v2-2e6549588ecebb1d2e45.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-80fc6ab7f1af09470431.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/codemodel-v2-c523ebd2709eb5074575.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/directory-.-RelWithDebInfo-d0094a50bb2071803777.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/directory-FramePacing-RelWithDebInfo-7f9c8865fd027a154c90.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/index-2024-05-30T20-30-40-0566.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/target-swappywrapper-RelWithDebInfo-7c6ccf8462dd5ff148ad.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.ninja_deps" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.ninja_log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/3.22.1-g37088a8-dirty/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/FramePacing/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/android_gradle_build.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/compile_commands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/compile_commands.json.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/metadata_generation_command.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/prefab_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab-configure/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab-configure/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/HpBar.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/HpBar.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Lines.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Lines.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Triangle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/Triangle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.RollOfTheDice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Circle.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Circle.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/cache-v2-68da92d75455fc7e26f5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/cmakeFiles-v1-599ab2e4eb4bfbae4d30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.cmake/api/v1/reply/index-2024-05-30T20-30-36-0981.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/metadata_generation_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/prefab_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/arm64-v8a/prefab_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/cache-v2-2e6549588ecebb1d2e45.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/cmakeFiles-v1-80fc6ab7f1af09470431.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.cmake/api/v1/reply/index-2024-05-30T20-30-40-0566.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/metadata_generation_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/metadata_generation_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/prefab_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/armeabi-v7a/prefab_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab-configure/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab-configure/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab-configure/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab-configure/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/arm64-v8a/prefab/lib/aarch64-linux-android/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab-configure/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfig.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/.utmp/RelWithDebInfo/5c35of36/prefab/armeabi-v7a/prefab/lib/arm-linux-androideabi/cmake/games-frame-pacing/games-frame-pacingConfigVersion.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Background.fbx" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Background.fbx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/DefaultVolumeProfile.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/DiceResultShower.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/DiceResultShower.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/16_WaterDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/16_WaterDice.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Dices/17_WaxDice.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Dices/17_WaxDice.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Bosses/0_ChainsawFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Bosses/0_ChainsawFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/0_SimpleFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/0_SimpleFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/10_FakeFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/10_FakeFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/1_GreenFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/1_GreenFly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/2_BabyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/2_BabyFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/3_TiredFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/3_TiredFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/4_PoopFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/4_PoopFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/5_PoopTinyFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/5_PoopTinyFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/6_PoopHeadFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/6_PoopHeadFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/7_BombFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/7_BombFly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/8_ElectroFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/8_ElectroFly.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/9_GasMaskFly.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Ordinary/9_GasMaskFly.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashBags.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashBags.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashContainer(2).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashContainer(2).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashContainer(3).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashContainer(3).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashContainer(4).png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Decorations/trashContainer(4).png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/Icone.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/Icone.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/Button.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/Button.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/trash_bin.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Buttons/trash_bin.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/DiceItem/DiceItem_Idle.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/DiceItem/DiceItem_Idle.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Sprites/UI/Fonts/Gamefont-Regular SDF.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/FightingScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MapScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/BoxArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/DorbluArea.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/EnemyStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/EnemyStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/FreezedStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/FreezedStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PunchStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PunchStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/StickyStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/StickyStatus.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/WaterStatus.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/WaterStatus.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Menu/DiceBackpackItem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Menu/DiceBackpackItem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
@@ -206,7 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BatteryDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/DiceEffect.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/BoxDice.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceEffect/CerealDice.cs" />
@@ -237,16 +130,12 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/SimpleFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/TiredFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/SceneLoader.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Debugger.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/BossesVariants/ChainsawFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Menu/BackpackMenuManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Dices/DiceAreas/OldBatteryDiceExplosion.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemiesVariants/FakeFly.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/PunchStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/EnemyStatus.cs" />
@@ -257,6 +146,11 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/EnemyStatuses/WaterStatus.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Managers/MainMenuManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SaveSystem/SaveSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Enemies/Enemy.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/GameManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/FightingMenuLoader.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Menu/DiceBackpackItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Managers/ScoreManager.cs" />
       </list>
     </option>
   </component>
@@ -501,6 +395,7 @@
       <workItem from="1717945359129" duration="1744000" />
       <workItem from="1717948652992" duration="511000" />
       <workItem from="1717961111355" duration="1828000" />
+      <workItem from="1718015929243" duration="2138000" />
     </task>
     <servers />
   </component>

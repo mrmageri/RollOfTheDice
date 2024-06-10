@@ -30,6 +30,7 @@
       <Path>.utmp</Path>
       <Path>Builds</Path>
       <Path>Logs</Path>
+      <Path>Temp</Path>
       <Path>UserSettings</Path>
       <Path>obj</Path>
     </explicitExcludes>

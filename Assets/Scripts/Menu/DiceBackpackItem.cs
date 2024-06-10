@@ -18,6 +18,7 @@ namespace Menu
         private BackpackMenuManager _backpackMenuManager;
         [SerializeField] private Animator _animator;
         public int clicks = 0;
+        private static readonly int IsScared = Animator.StringToHash("isScared");
 
         public void Awake()
         {
@@ -34,7 +35,10 @@ namespace Menu
 
         public void Highlight(bool setActive = true)
         {
-            _animator.SetBool("isScared",setActive);
+            if (_animator != null && _animator.isActiveAndEnabled)
+            {
+                _animator.SetBool(IsScared,setActive);
+            }
         }
 
         public void OnClick()

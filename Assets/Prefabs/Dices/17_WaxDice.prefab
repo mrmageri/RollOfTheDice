@@ -66,7 +66,7 @@ MonoBehaviour:
   diceName: Clot of Wax
   description: x2
   isOpened: 1
-  diceRarity: 3
+  diceRarity: 2
   onPlayerHealthEffect: 0
   diceReloadingType: 0
   reloadingPoints: 0

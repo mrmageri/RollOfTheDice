@@ -5502,7 +5502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acb33cc6c4ea55f40a5fc5334fe18194, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Chainsaw-fly
+  enemyName: Chainsaw
   maxHealth: 35
   health: 35
   enemyDamage: 10

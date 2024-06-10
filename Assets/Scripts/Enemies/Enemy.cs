@@ -15,7 +15,7 @@ namespace Enemies
 
         [Header("Health")] 
         public float maxHealth = 5;
-        [HideInInspector]public float health = 5;
+        public float health = 5;
     
         [Header("Damage")]
         public int enemyDamage = 1;
