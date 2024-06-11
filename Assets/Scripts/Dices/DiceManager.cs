@@ -229,11 +229,11 @@ namespace Dices
                         break;
                     }
                 }
-                if (!dicesPool[id].isOpened)
+               /* if (!dicesPool[id].isOpened)
                 {
                     possibleDices.Remove(possibleDices[id - count]);
                     count++;
-                }
+                }*/
             }
 
             List<int> finalDicesIds = new List<int>();
@@ -249,7 +249,7 @@ namespace Dices
             return finalDicesIds.Count == 0 ? null : dicesPool[finalDicesIds[newDiceId]];
         }
 
-        public void OpenDice(int diceId)
+       /* public void OpenDice(int diceId)
         {
             int count = dicesPool.Count;
             bool[] newDicesId = new bool[count];
@@ -261,7 +261,7 @@ namespace Dices
             dicesPool[diceId].isOpened = true;
             //Debug.Log("Dice " + diceId + " was opened");
             SaveSystem.SaveSystem.SaveDiceData(newDicesId);
-        }
+        }*/
 
         public void DeactivateDices()
         {

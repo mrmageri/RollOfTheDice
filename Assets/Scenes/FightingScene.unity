@@ -15336,6 +15336,7 @@ MonoBehaviour:
   - {fileID: 1285946675917121876, guid: fe5a6c9aa2ef86149aea27632ae77295, type: 3}
   bossesPool:
   - {fileID: 7295081866193306340, guid: f0ac0f73e62a4a4468e818945b61d947, type: 3}
+  - {fileID: 7295081866193306340, guid: baf3055284ee2d546a1660d5c7f524ec, type: 3}
   enemiesAvailable: []
   comingEnemies: []
   comingBoss: {fileID: 0}

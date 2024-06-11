@@ -35,7 +35,8 @@ namespace Dices
         public int id = 0;
         public string diceName;
         public string description;
-        public bool isOpened = false;
+        public bool isDisabled = false;
+        //public bool isOpened = false;
         public Rarity diceRarity;
         public OnPlayerHealthEffect onPlayerHealthEffect;
         
@@ -59,6 +60,7 @@ namespace Dices
         public Image spriteRenderer;
         public Image reloadingIcon;
         public Button diceButton;
+        public GameObject disabledEffect;
         
         [Header("Dice text")]
         public TMP_Text counterText;
@@ -84,6 +86,7 @@ namespace Dices
             if (diceReloadingType == ReloadingType.SacrificeHealth && !isActive) _diceManager.UpdateSacrificeHealthReloadingPoints(maxReloadingPoints,this);
             if (diceReloadingType == ReloadingType.SacrificeHealth && isActive) Player.Player.instancePlayer.HealingPlayer(maxReloadingPoints);
             if(!_player.isAlive) return;
+            if (isDisabled) return;
             if (!isReady) return;
             _diceManager.previousDice = _diceManager.currentDice;
             _diceManager.currentDice = this;
@@ -140,6 +143,12 @@ namespace Dices
         public void SetReloadIcon(Sprite sprite)
         {
             reloadingIcon.sprite = sprite;
+        }
+
+        public void SetDisabled(bool working = true)
+        {
+            isDisabled = working;
+            disabledEffect.SetActive(working);
         }
 
         //Compares dice reloading type

@@ -61,6 +61,7 @@
             <e p="Enemies" t="Include">
               <e p="Bosses" t="Include">
                 <e p="ChainsawFly" t="Include" />
+                <e p="KingFly" t="Include" />
               </e>
               <e p="Ordinary" t="Include">
                 <e p="BabyFly" t="Include" />

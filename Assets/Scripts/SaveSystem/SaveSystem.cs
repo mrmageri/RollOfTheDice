@@ -52,13 +52,13 @@ namespace SaveSystem
             }
         }
         
-        public static void SaveLevelData(int newCurrentLevel)
+        public static void SaveLevelData(int newCurrentLevel, int[] usedBosses)
         {
             BinaryFormatter formatter = new BinaryFormatter();
             string path = Application.persistentDataPath + "/levelData.rotd";
             FileStream stream = new FileStream(path, FileMode.Create);
         
-            LevelData data = new LevelData(newCurrentLevel);
+            LevelData data = new LevelData(newCurrentLevel,usedBosses);
             formatter.Serialize(stream, data);
             stream.Close();
         }

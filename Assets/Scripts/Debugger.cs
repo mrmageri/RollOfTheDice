@@ -27,10 +27,10 @@ public class Debugger : MonoBehaviour
 
     public void GetText()
     {
-        if (inputField.text.Contains("give ")){ GiveDice(FindNumber()); inputField.text = ""; return;}
+        if (inputField.text.Contains("g ")){ GiveDice(FindNumber()); inputField.text = ""; return;}
         if (inputField.text.Contains("clear")){ ClearData(); inputField.text = ""; return;}
         if(inputField.text.Contains("del")){if(FindNumber() - 1 < _diceManager.dices.Count)_diceManager.DeleteDice(FindNumber() - 1); inputField.text = ""; BackpackMenuManager.instanceBMM.UpdateDice(); return;}
-        if(inputField.text.Contains("open")){_diceManager.OpenDice(FindNumber()); inputField.text = ""; return;}
+        //if(inputField.text.Contains("open")){_diceManager.OpenDice(FindNumber()); inputField.text = ""; return;}
         if(inputField.text.Contains("enemy")){if(FindNumber() - 1 < _enemiesSpawner.enemiesPool.Count && FindNumber() >= 0)SpawnEnemy(FindNumber()); inputField.text = "";}
         if(inputField.text.Contains("boss")){if(FindNumber() - 1 < _enemiesSpawner.bossesPool.Count && FindNumber() >= 0)SpawnBoss(FindNumber()); inputField.text = "";}
         inputField.text = "";

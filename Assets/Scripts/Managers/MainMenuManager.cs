@@ -51,7 +51,7 @@ public class MainMenuManager : MonoBehaviour
 
     public void LoadFightingScene()
     {
-        SaveSystem.SaveSystem.SaveLevelData(currentLevel);
+        SaveSystem.SaveSystem.SaveLevelData(currentLevel,new int[0]);
         ActivateTransition();
     }
 

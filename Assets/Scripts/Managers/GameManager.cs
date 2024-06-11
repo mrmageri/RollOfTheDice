@@ -58,7 +58,14 @@ public class GameManager : MonoBehaviour
 
     public void SaveLevelData()
     {
-        SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
+        if (SaveSystem.SaveSystem.LoadLevelData() != null)
+        {
+            SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber,SaveSystem.SaveSystem.LoadLevelData().usedBosses);
+        }
+        else
+        {
+            SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber,new int[0]);
+        }
     }
 
     public void Winning()
@@ -69,7 +76,14 @@ public class GameManager : MonoBehaviour
             //if (currentLevelNumber + 1 < maxLevelNUmber)
             //{
                 currentLevelNumber++;
-                SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
+                if (SaveSystem.SaveSystem.LoadLevelData() != null)
+                {
+                    SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber,SaveSystem.SaveSystem.LoadLevelData().usedBosses);
+                }
+                else
+                {
+                    SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber,new int[0]);
+                }
             //}
             /*else
             {
@@ -86,7 +100,14 @@ public class GameManager : MonoBehaviour
             //if (currentLevelNumber + 1 < maxLevelNUmber)
             //{
                 currentLevelNumber++;
-                SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber);
+                if (SaveSystem.SaveSystem.LoadLevelData() != null)
+                {
+                    SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber,SaveSystem.SaveSystem.LoadLevelData().usedBosses);
+                }
+                else
+                {
+                    SaveSystem.SaveSystem.SaveLevelData(currentLevelNumber,new int[0]);
+                }
            // }
             /*else
             {

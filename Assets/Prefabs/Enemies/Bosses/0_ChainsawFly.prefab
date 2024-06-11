@@ -5505,9 +5505,9 @@ MonoBehaviour:
   enemyName: Chainsaw
   maxHealth: 35
   health: 35
-  enemyDamage: 10
+  enemyDamage: 6
   enemyCost: 25
-  speed: 1.1
+  speed: 1.2
   targetTransform: {fileID: 0}
   isMovingBack: 0
   isBoss: 1

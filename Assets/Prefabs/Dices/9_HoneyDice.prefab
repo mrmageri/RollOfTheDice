@@ -35,6 +35,7 @@ RectTransform:
   - {fileID: 4027959420549983066}
   - {fileID: 4246698068908099738}
   - {fileID: 3269878562315662946}
+  - {fileID: 2121639497452971746}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -65,7 +66,7 @@ MonoBehaviour:
   id: 9
   diceName: Honey
   description: So sweet and sticky!
-  isOpened: 1
+  isDisabled: 0
   diceRarity: 4
   onPlayerHealthEffect: 0
   diceReloadingType: 0
@@ -81,6 +82,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 3608308042550212426}
   reloadingIcon: {fileID: 3653240192296199985}
   diceButton: {fileID: 2518934524796184408}
+  disabledEffect: {fileID: 2983086320201770187}
   counterText: {fileID: 6061283949185136638}
 --- !u!114 &2518934524796184408
 MonoBehaviour:
@@ -153,6 +155,81 @@ MonoBehaviour:
   fromDamage: 1
   upToDamage: 6
   dice: {fileID: 0}
+--- !u!1 &2983086320201770187
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2121639497452971746}
+  - component: {fileID: 5911499082970130926}
+  - component: {fileID: 7134848445010694191}
+  m_Layer: 5
+  m_Name: Disabled
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &2121639497452971746
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2983086320201770187}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2518934524796184404}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: -35}
+  m_SizeDelta: {x: 300, y: 300}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &5911499082970130926
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2983086320201770187}
+  m_CullTransparentMesh: 1
+--- !u!114 &7134848445010694191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2983086320201770187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.35936022, g: 0, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 3a9822da62f4ddc40ba9e9377127f39c, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 1
+  m_FillAmount: 0.03
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &6718648714200413515
 GameObject:
   m_ObjectHideFlags: 0
@@ -389,6 +466,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1827988411215459757, guid: 43d83d68c0c737d439e732a7579fd74f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7811829560031651222, guid: 43d83d68c0c737d439e732a7579fd74f, type: 3}
+      propertyPath: m_SortingLayer
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8196140595943950518, guid: 43d83d68c0c737d439e732a7579fd74f, type: 3}

@@ -9,6 +9,7 @@ public class FightingMenuLoader : MonoBehaviour
     [SerializeField] private Animator transitionAnimator;
     [SerializeField] private int[] defaultDiceIDs = new int[] {0};
     [SerializeField] private int[] startDiceIDs;
+    
     private Player.Player _player;
     private EnemiesSpawner _enemiesSpawner;
     private DiceManager _diceManager;
@@ -25,7 +26,7 @@ public class FightingMenuLoader : MonoBehaviour
             _enemiesSpawner = EnemiesSpawner.instanceES;
             _gameManager = GameManager.instanceGm;
             _scoreManager = ScoreManager.instanceSm;
-            
+
             //Loading data...
             
             if (SaveSystem.SaveSystem.LoadPlayerData() == null)
@@ -48,7 +49,7 @@ public class FightingMenuLoader : MonoBehaviour
                 var cLevel = _gameManager.currentLevelNumber;
                 if (_gameManager.currentLevelNumber % 5 == 0)
                 {
-                    _enemiesSpawner.AddBoss(_enemiesSpawner.bossesPool.Count);
+                    _enemiesSpawner.AddBoss(_enemiesSpawner.bossesPool.Count,SaveSystem.SaveSystem.LoadLevelData().usedBosses);
                     _enemiesSpawner.levelEnemiesPoints = (GameManager.instanceGm.currentLevelNumber / 2 + 2) * 2;
                     _enemiesSpawner.maxEnemiesOnScene /= 2;
                     _enemiesSpawner.bossIsComing = true;
@@ -61,7 +62,7 @@ public class FightingMenuLoader : MonoBehaviour
                 }
             }
             
-            if (SaveSystem.SaveSystem.LoadDiceData() == null)
+            /*if (SaveSystem.SaveSystem.LoadDiceData() == null)
             {
                 foreach (var dice in _diceManager.dicesPool)
                 {
@@ -81,7 +82,7 @@ public class FightingMenuLoader : MonoBehaviour
                 {
                     _diceManager.dicesPool[i].isOpened = SaveSystem.SaveSystem.LoadDiceData().diceInfo[i];
                 }
-            }
+            }*/
     }
     private void GenerateLevel(int cLevel)
     {

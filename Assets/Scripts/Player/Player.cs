@@ -1,9 +1,7 @@
-using System;
 using Dices;
 using Enemies;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace Player

@@ -87,11 +87,35 @@ using Random = UnityEngine.Random;
                 GenerateLevelEnemiesList();
             }
 
-            public void AddBoss(int maxId, int minId = 0)
+            public void AddBoss(int maxId, int[] usedBosses, int minId = 0)
             {
-                int rand = Random.Range(minId, maxId);
-                comingBoss = bossesPool[rand];
-                currentBossId = rand;
+                if(maxId - usedBosses.Length == 0) usedBosses = new int[0];
+                int[] bosses = new int[maxId - usedBosses.Length];
+                int count = 0;
+                for (int i = 0; i < maxId; i++)
+                {
+                    bool used = false;
+                    for (int j = 0; j < usedBosses.Length; j++)
+                    {
+                        if (usedBosses[j] == i) used = true;
+                    }
+                    if (!used)
+                    {
+                        bosses[count] = i;
+                        count++;
+                    }
+                }
+                int rand = Random.Range(minId, bosses.Length);
+                comingBoss = bossesPool[bosses[rand]];
+                currentBossId = bosses[rand];
+
+                int[] newUsedBosses = new int[usedBosses.Length + 1];
+                for (int i = 0; i < usedBosses.Length; i++)
+                {
+                    newUsedBosses[i] = usedBosses[i];
+                }
+                newUsedBosses[usedBosses.Length] = currentBossId;
+                SaveSystem.SaveSystem.SaveLevelData(SaveSystem.SaveSystem.LoadLevelData().currentLevel,newUsedBosses);
             }
 
             public void SpawningEnemies(int currentTurn)
