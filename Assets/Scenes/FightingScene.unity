@@ -15557,6 +15557,7 @@ MonoBehaviour:
   score: 0
   bossesSprites:
   - {fileID: 21300000, guid: 5836a6e17ca5b1342ba339218822cec6, type: 3}
+  - {fileID: 21300000, guid: 5836a6e17ca5b1342ba339218822cec6, type: 3}
   bossImage: {fileID: 971301702}
   bossName: {fileID: 2137698158}
   bossLayout: {fileID: 2145509353}

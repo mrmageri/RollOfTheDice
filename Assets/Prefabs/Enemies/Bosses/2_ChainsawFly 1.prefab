@@ -5449,7 +5449,7 @@ GameObject:
   - component: {fileID: 8958740387597351885}
   - component: {fileID: 2239607848097016074}
   m_Layer: 0
-  m_Name: 1_ChainsawFly 1
+  m_Name: 2_ChainsawFly 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5817,13 +5817,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6793987842517660898}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0.5, y: 0, z: 0, w: 0.8660254}
   m_LocalPosition: {x: -0.114, y: -0.381, z: 0}
   m_LocalScale: {x: 1.5, y: 0.6, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4031120927311452403}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!212 &3122565057788957836
 SpriteRenderer:
   m_ObjectHideFlags: 0
