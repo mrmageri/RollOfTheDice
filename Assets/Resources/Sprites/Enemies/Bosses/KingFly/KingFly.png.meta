@@ -396,7 +396,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      KingFly_0: -5950359768892427874
+      KingFly_1: -5901787446971046433
+      KingFly_10: 4142191580373447122
+      KingFly_2: 7549596920640499129
+      KingFly_3: 3092609570285318511
+      KingFly_4: -246877179192590509
+      KingFly_5: 3352239448563451495
+      KingFly_6: 3306490530436530460
+      KingFly_7: -7981113504710530293
+      KingFly_8: 8286665660315069898
+      KingFly_9: 8881235763895448635
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
